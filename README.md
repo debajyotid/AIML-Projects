@@ -1,4 +1,6 @@
 # AIML-Projects
+![Image](https://2s7gjr373w3x22jf92z99mgm5w-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/brain_AI_shutterstock_Jozsef-Bagota-768x384.jpg)
+---
 This is a collection of the different Machine Learning and Deep Learning Projects undertaken by me.  Some of these projects are part of the PGP AI-ML course from Great Lakes Institute of Management, to which I am currently enrolled to.
 
 I have collected all the different projects, assessments & other research ideas that I have either been assigned to during my PGP Course or 
