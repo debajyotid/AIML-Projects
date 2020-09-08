@@ -16,6 +16,8 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Predicting-Salary-Range-using-ML-Techniques](#Predicting-Salary-Range-using-ML-Techniques)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)|
+|[Predicting-Mutual-Fund-Ratings](#Using-ML-techniques-to-predict-GreatStone-Ratings-for-MutualFunds)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `sklearn.svm`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)|
 |[FashionMNIST and CIFAR10 Classification using CNN](#Using-Convolutional-Neural-Networks-for-classifying-FashionMNIST-and-CIFAR10-dataset)|`Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/CNN_on_FashionMNIST_CIFAR10_with_ImageAugmentation.ipynb)|
 |[Handwritten Digit Classification](#Using-Dense-Neural-Networks-for-Street-View-House-Numbers-Identification)|`Neural Networks` | `tensorflow.keras`, `sklearn.preprocessing`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Predicting_hadnwritten_digits_using_DNN.ipynb)|
 |[Predicting Customer Churn using Neural Networks](#Predicting-Customer-Churn-using-Neural-Networks)|`Neural Networks` |`imblearn`, `tensorflow.keras`, `sklearn.preprocessing`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/CollaborativeFiltering_and_PopularityBased_RecommendationSystems.ipynb)|
@@ -30,6 +32,55 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-system-to-predict-Student's-performance-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Hypothesis_Testing_Questions.ipynb)|
+
+### Predicting Salary Range using ML Techniques
+---
+Problem Statement: Predict the pay-range a given employee would belong to, based on the analysis of different attributes of other employees & their respective pay-range.
+
+The dataset is sourced from http://openbook.sfgov.org, which is part of the Government of San Francisco city's initiative in providing open & easily accessible data related to performance & spending across different departments of San Francisco City government. Salary range is the range of pay established by employers to pay to employees performing a particular job or function. Salary range generally has a minimum pay rate, a maximum pay rate, and a series of mid-range opportunities for pay increases.
+
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)
+
+#### Skills and Tools
+LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMOTE, RandomUnderSampler, Pipeline
+
+### Using ML techniques to predict GreatStone Ratings for MutualFunds
+---
+
+A mutual fund is a professionally managed investment fund that pools money from many investors to purchase securities. These investors may be retail or institutional in nature. Mutual fund ratings is one of the most influential and prominent decision making factors that is used by investors in making a
+decision with regards to selecting a mutual fund. Great Stone Rating is a star based ranking system. These ratings are based on the performance of a mutual
+fund with adjustments for risks and costs as compared to other funds in the same category. The rating ranges from
+0 to 5.
+
+Goal: The goal of this project is to predict GreatStone’s rating of a mutual fund. In order to help investors decide on which mutual fund to pick for an investment, the task is to build a model that can predict the rating of a mutual fund. The various attributes that define a mutual fund can be used for building the model. This dataset comprises information of 25000 mutual funds in the United states. Various attributes related to the mutual fund have been described and these attributes will be used for making decisions on the rating of the mutual fund by GreatStone which is a top mutual fund rating agency.
+
+Dataset Information
+Files Description:
+The following files are provided in the form of CSVs. These files contain various attributes related to the mutual fund.
+bond_ratings, fund_allocations, fund_config, fund_ratios, fund_specs, other_specs, return_3year, return_5year, return_10year. 
+
+bond_ratings consists of 12 columns which provide information on the bond rating percentage allocation of the mutual funds.
+
+fund_allocations consists of 12 columns which provide information on the sector wise percentage allocation of the mutual funds
+
+fund_config comprises of 4 columns which comprise the metadata of the mutual funds
+
+fund_ratios consists of 8 columns which provides information on various fundamental ratios that describe the mutual funds
+
+fund_specs contains 9 columns which give information about the specifications of the mutual funds
+
+other_specs contains 43 columns which give information of the other aspects of the mutual funds
+
+return_3years contains 17 columns which give information about 3 year return and ratios
+
+return_5years contains 17 columns which give information about 3 year return and ratios
+
+return_10years contains 17 columns which give information about 3 year return and ratios
+
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)
+
+#### Skills and Tools
+LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMOTE, RandomUnderSampler, Pipeline
 
 ### Using Convolutional Neural Networks for classifying FashionMNIST and CIFAR-10 dataset
 ---
@@ -57,8 +108,10 @@ Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam
 In this project, we will use the dataset with images centered around a single digit (many of the images do contain some distractors at the sides). Although we are taking a sample of the data which is simpler, it is more complex than MNIST because of the distractors.
 
 The Street View House Numbers (SVHN) Dataset SVHN is a real-world image dataset for developing machine learning and object recognition algorithms with the minimal requirement on data formatting but comes from a significantly harder, unsolved, real-world problem (recognizing digits and numbers in natural scene images). SVHN is obtained from house numbers in Google Street View images. 
+
 Link to the dataset: https://drive.google.com/file/d/1L2-WXzguhUsCArrFUc8EEkXcj33pahoS/view?usp=sharing
-Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.
+Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, Andrew Y. Ng 
+Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Workshop on Deep Learning and Unsupervised Feature Learning 2011.
 
 The objective of the project is to learn how to implement a simple image classification pipeline based on a deep neural network. 
 
