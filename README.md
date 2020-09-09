@@ -36,6 +36,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Predicting Salary Range using ML Techniques
 ---
 ![Image](http://www.salaryexplorer.com/charts/united-states/california/san-francisco/median-and-salary-distribution-yearly-san-francisco.jpg)
+
 Problem Statement: Predict the pay-range a given employee would belong to, based on the analysis of different attributes of other employees & their respective pay-range.
 
 The dataset is sourced from http://openbook.sfgov.org, which is part of the Government of San Francisco city's initiative in providing open & easily accessible data related to performance & spending across different departments of San Francisco City government. Salary range is the range of pay established by employers to pay to employees performing a particular job or function. Salary range generally has a minimum pay rate, a maximum pay rate, and a series of mid-range opportunities for pay increases.
@@ -47,7 +48,8 @@ LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMO
 
 ### Using ML techniques to predict GreatStone Ratings for MutualFunds
 ---
-![Image](https://www.mymoneysage.in/blog/wp-content/uploads/2017/01/MF-1.png)
+![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCEAM11d1HfPzt6_bZWYXeo63A2SUVkHhV3A&usqp=CAU)
+![Image](https://static-news.moneycontrol.com/static-mcnews/2018/02/Planning-to-invest-in-Mutual-Funds_cover-770x433.jpg)
 A mutual fund is a professionally managed investment fund that pools money from many investors to purchase securities. These investors may be retail or institutional in nature. Mutual fund ratings is one of the most influential and prominent decision making factors that is used by investors in making a
 decision with regards to selecting a mutual fund. Great Stone Rating is a star based ranking system. These ratings are based on the performance of a mutual
 fund with adjustments for risks and costs as compared to other funds in the same category. The rating ranges from
