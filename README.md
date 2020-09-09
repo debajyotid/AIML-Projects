@@ -48,8 +48,8 @@ LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMO
 
 ### Using ML techniques to predict GreatStone Ratings for MutualFunds
 ---
-![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRCEAM11d1HfPzt6_bZWYXeo63A2SUVkHhV3A&usqp=CAU)
-![Image](https://static-news.moneycontrol.com/static-mcnews/2018/02/Planning-to-invest-in-Mutual-Funds_cover-770x433.jpg)
+![Image](https://www.jagoinvestor.com/wp-content/uploads/files/Mutual-fund-types.jpg)
+
 A mutual fund is a professionally managed investment fund that pools money from many investors to purchase securities. These investors may be retail or institutional in nature. Mutual fund ratings is one of the most influential and prominent decision making factors that is used by investors in making a
 decision with regards to selecting a mutual fund. Great Stone Rating is a star based ranking system. These ratings are based on the performance of a mutual
 fund with adjustments for risks and costs as compared to other funds in the same category. The rating ranges from
@@ -87,7 +87,8 @@ LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMO
 
 ### Using Convolutional Neural Networks for classifying FashionMNIST and CIFAR-10 dataset
 ---
-![Image](https://storage.googleapis.com/kaggle-competitions/kaggle/3649/media/cifar-10.png)
+![Image](https://aiinpractice.com/wp-content/uploads/2018/05/cifar10.jpg)
+
 Correctly classify the different items in the FashionMNIST & CIFAR10 dataset using Convolutional Neural Networks. Additionally use Image augmentation by utilizing the ImageDataGenerator library.
 
 Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/CNN_on_FashionMNIST_CIFAR10_with_ImageAugmentation.ipynb)
@@ -98,6 +99,7 @@ Convolution, Maxpooling, Tensorflow, Keras, Dropout, BatchNormalization, Softmax
 ### Using Dense Neural Networks for classifying FashionMNIST dataset
 ---
 ![Image](https://peltarion.com/static/fashion-mnist_long.png)
+
 Correctly classify the different items in the FashionMNIST dataset using Dense Neural Networks
 
 Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/FashionMNIST_Classification.ipynb)
@@ -108,6 +110,7 @@ Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam
 ### Using Dense Neural Networks for Street View House Numbers Identification
 ---
 ![Image](https://research.cerenaut.ai/wp-content/uploads/2018/01/svhn-large.jpg)
+
 In this project, we will use the dataset with images centered around a single digit (many of the images do contain some distractors at the sides). Although we are taking a sample of the data which is simpler, it is more complex than MNIST because of the distractors.
 
 The Street View House Numbers (SVHN) Dataset SVHN is a real-world image dataset for developing machine learning and object recognition algorithms with the minimal requirement on data formatting but comes from a significantly harder, unsolved, real-world problem (recognizing digits and numbers in natural scene images). SVHN is obtained from house numbers in Google Street View images. 
@@ -126,8 +129,8 @@ Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam
 ### Predicting Customer Churn using Neural Networks
 ---
 ![Image](https://document360.io/wp-content/uploads/2019/02/customer-churn-.jpg)
-The case study is from an open source dataset from Kaggle.
 
+The case study is from an open source dataset from Kaggle.
 Link to the Kaggle project site:
 https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling
 
@@ -180,6 +183,7 @@ User-User Collaborative Filtering, Item-Item Collaborative Filtering, SVD, KNNWi
 ### Book Recommendation using User based Collaborative Filtering
 ---
 ![Image](https://www.researchgate.net/profile/Marwa_Mohamed49/publication/331063850/figure/fig3/AS:729493727621125@1550936266704/Content-based-filtering-and-Collaborative-filtering-recommendation.ppm)
+
 The Objective of this project entails building a Book Recommender System for users based on user-based and item-based collaborative filtering approaches.
 
 The dataset has been compiled by Cai-Nicolas Ziegler in 2004, and it comprises of three tables for users, books and ratings. Explicit ratings are expressed on a scale from 1-10 (higher values denoting higher appreciation) and implicit rating is expressed by 0.
@@ -194,6 +198,7 @@ User-User Collaborative Filtering, SVD
 ### Predicting Loan Defualt using Randomforest Classifier
 ---
 ![Image](https://www.debt.org/wp-content/uploads/2012/07/Default-on-Loans.jpg)
+
 Based on different attributes of a bank's customers, predict whether a customer will default or not, using different ML techniques like K-Fold Cross-Validation, RandomForestClassifier, etc. Also the model's performance is explained using a ROC-AUC plot
 
 Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/AI-ML-Projects/blob/master/Predicting_LoanDefault_using_RandomForestClassifier.ipynb)
@@ -204,6 +209,7 @@ K-Fold Cross-Validation, RandomForestClassifier, GridSearchCV, LabelEncoder, One
 ### Predicting onset of Parkinson's disease by analyzing voice sample using Ensemble Techniques
 ---
 ![Image](https://www.genengnews.com/wp-content/uploads/2019/06/203938_web.jpg)
+
 Parkinson’s Disease (PD) is a degenerative neurological disorder marked by decreased dopamine levels in the brain. It manifests itself through a deterioration of movement, including the presence of tremors and stiffness. There is commonly a marked effect on speech, including dysarthria (difficulty articulating sounds), hypophonia (lowered volume), and monotone (reduced pitch range). Additionally, cognitive impairments and changes in mood can occur, and risk of dementia is increased.
 
 Traditional diagnosis of Parkinson’s Disease involves a clinician taking a neurological history of the patient and observing motor skills in various situations. Since there is no definitive laboratory test to diagnose PD, diagnosis is often difficult, particularly in the early stages when motor effects are not yet severe.
@@ -229,6 +235,7 @@ DecisionTreeClassifier, RandomForestClassifier, PCA, sklearn.preprocessing, Grid
 ### Classifying vehicles by analysing their silhouettes
 ---
 ![Image](https://cdn-ds.com/blogs-media/sites/43/2019/03/01204421/black-car-silhouette-side-view_u-1038x375.jpg)
+
 The purpose of the case study is to classify a given silhouette as one of three different types of vehicle, using a set of features extracted from the silhouette. The vehicle may be viewed from one of many different angles.
 
 Four "Corgie" model vehicles were used for the experiment: a double-decker bus, Chevrolet van, Saab 9000 and an Opel Manta 400 cars.This particular combination of vehicles was chosen with the expectation that the bus, van and either one of the cars would be readily distinguishable, but it would be more difficult to distinguish between the cars.
