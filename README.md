@@ -22,7 +22,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Using DNN to classify images in Fashion-MNIST Dataset](#Using-Dense-Neural-Networks-for-classifying-FashionMNIST-dataset)|`Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/FashionMNIST_Classification.ipynb)|
 |[Handwritten Digit Classification](#Using-Dense-Neural-Networks-for-Street-View-House-Numbers-Identification)|`Neural Networks` | `tensorflow.keras`, `sklearn.preprocessing`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Handwritten%20Digit%20Classification/Predicting_hadnwritten_digits_using_DNN.ipynb)|
 |[Predicting Customer Churn using Neural Networks](#Predicting-Customer-Churn-using-Neural-Networks)|`Neural Networks` |`imblearn`, `tensorflow.keras`, `sklearn.preprocessing`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Predicting%20Customer%20Churn%20using%20ANN/Predicting_customer_churn_using_ANN.ipynb)|
-|[Recommending Electronic Items using Collaborative Filtering](#Recommending-Electronic-Items-using-User-based-and-Item-based-Collaborative-Filtering)|`Recommendation Systems` |`surprise`, `SVD`, `collections`|[Click](https://nbviewer.jupyter.org/Great-Lakes/tree/master/Machine%20Learning/Recommendation%20Systems/Recommending%20Electronic%20Items%20using%20Collaborative%20Filtering/CollaborativeFiltering_and_PopularityBased_RecommendationSystems.ipynb)|
+|[Recommending Electronic Items using Collaborative Filtering](#Recommending-Electronic-Items-using-User-based-and-Item-based-Collaborative-Filtering)|`Recommendation Systems` |`surprise`, `SVD`, `collections`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/tree/master/Machine%20Learning/Recommendation%20Systems/CollaborativeFiltering_and_PopularityBased_RecommendationSystems.ipynb)|
 |[Book Recommendation using Collaborative Filtering](#Book-Recommendation-using-User-based-Collaborative-Filtering)|`Recommendation Systems` |`surprise`, `SVD`, `collections`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Recommendation%20Systems/Book%20Recommendation%20using%20Collaborative%20Filtering/Recommendations_using_CollaborativeFiltering.ipynb)|
 |[Predicting Loan Defualt using Randomforest Classifier](#Predicting-Loan-Defualt-using-Randomforest-Classifier)|`Ensemble Techniques` |`KFold`, `sklearn.utils`, `RandomForestClassifier`, `sklearn.preprocessing`, `sklearn.preprocessing`, `sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Ensemble%20Techniques/Predicting%20Loan%20Defualt%20using%20Randomforest%20Classifier/Predicting_LoanDefault_using_RandomForestClassifier.ipynb)|
 |[Predicting onset of Parkinson's disease by analyzing voice sample using Ensemble Techniques](#Predicting-onset-of-Parkinson's-disease-by-analyzing-voice-sample-using-Ensemble-Techniques)|`Ensemble Techniques` |`DecisionTreeClassifier`, `RandomForestClassifier`, `PCA`, `sklearn.preprocessing`, `GridSearchCV`, `RandomizedSearchCV`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Ensemble%20Techniques/Predicting%20onset%20of%20Parkinson's%20disease%20by%20analyzing%20voice%20sample%20using%20Ensemble%20Techniques/Predicting_Parkinsons_onset_analyzing_voicesamples_using_EnsembleTechniques.ipynb)|
@@ -31,8 +31,8 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Campaign to sell Personal Loans](#Using-Supervised-Machine-Learning-techniques-to-create-a-successful-targetted-Perosnal-Loan-Campaign)|`Supervised Learning` |`LogisticRegression`, `KNeighborsClassifier`, `train_test_split`, `GridSearchCV`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised%20Learning/Campaign%20for%20selling%20Personal%20Loans/Campaign_for_Personal_Loans.ipynb)|
 |[Classifying patients based on their orthopdeic biomechanical features](#Patient-Classification-using-orthopaedic-biomechanical-features)|`Supervised Learning` |`KNeighborsClassifier`, `MinMaxScaler`, `train_test_split`, `metrics`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised%20Learning/Patient%20Classification%20using%20biomechanical%20features%20of%20orthopaedic%20patients/Classifying_Patients_using_biomechanical_features.ipynb)|
 |[Building a Student Performance Prediction System](#Building-a-system-to-predict-Student's-performance-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised%20Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
-|[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical%20Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
-|[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical%20Learning/Hypothesis_Testing_Questions.ipynb)|
+|[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
+|[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
 
 ### Predicting Salary Range using ML Techniques
 ---
@@ -92,7 +92,7 @@ LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMO
 
 Correctly classify the different items in the FashionMNIST & CIFAR10 dataset using Convolutional Neural Networks. Additionally use Image augmentation by utilizing the ImageDataGenerator library.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/CNN_on_FashionMNIST_CIFAR10_with_ImageAugmentation.ipynb)
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/CNN_on_FashionMNIST_CIFAR10_with_ImageAugmentation.ipynb)
 
 #### Skills and Tools
 Convolution, Maxpooling, Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam, Image Augmentation
@@ -103,7 +103,7 @@ Convolution, Maxpooling, Tensorflow, Keras, Dropout, BatchNormalization, Softmax
 
 Correctly classify the different items in the FashionMNIST dataset using Dense Neural Networks
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/FashionMNIST_Classification.ipynb)
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/FashionMNIST_Classification.ipynb)
 
 #### Skills and Tools
 Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam
@@ -122,7 +122,7 @@ Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Worksho
 
 The objective of the project is to learn how to implement a simple image classification pipeline based on a deep neural network. 
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Predicting_hadnwritten_digits_using_DNN.ipynb)
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Handwritten%20Digit%20Classification/Predicting_hadnwritten_digits_using_DNN.ipynb)
 
 #### Skills and Tools
 Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam
@@ -154,7 +154,7 @@ We didn't practise in imbalance learning optimization as we felt that in real-wo
 
 We observed that the model was having a very poor RECALL score for customers who HAVE EXITED, which was actually our target customers, people who we wish to retain back. Thus the above model was defeating our basic requirement & decided to look at other options to improve our model. One such approach was SYNTHETIC OVER-SAMPLING & RANDOM UNDER-SAMPLING. Using the same we were able to design a model which is having comparable accuracy to our previous model while at the same time has a much higher PRECISION & RECALL for our target class.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Predicting_customer_churn_using_ANN.ipynb)
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Predicting%20Customer%20Churn%20using%20ANN/Predicting_customer_churn_using_ANN.ipynb)
 
 #### Skills and Tools
 SMOTE, RandomUnderSampler, Pipeline, Tensorflow, Keras
@@ -295,7 +295,7 @@ LogisticRegression, GaussianNB, train_test_split, seaborn, labelencoder
 ---
 In the case of an insurance company, attributes of customers like Age, Gender, BMI, No. of Children, Smoking habits, etc. can be crucial in making business decisions. Hence, knowing to explore and generate value out of such data can be an invaluable skill to have.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/Machine Learning/Statistical Learning/blob/master/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)
 
 #### Skills and Tools
 t-Test, Student's t-Test, ANOVA, EDA
@@ -304,7 +304,7 @@ t-Test, Student's t-Test, ANOVA, EDA
 ---
 In this assignment, we look at various statistical techniques like t-Tests, ANOVA, Chi-Square Tests, etc. and try answer various questions statistically using Hypothesis Testing
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/Machine-Learning/Statistical-Learning/blob/master/Hypothesis_Testing_Questions.ipynb)
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)
 
 #### Skills and Tools
 t-Tests, ANOVA, Type-I & Type-II Errors, Chi-Squared Tests
