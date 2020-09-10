@@ -86,7 +86,7 @@ Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mut
 #### Skills and Tools
 LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMOTE, RandomUnderSampler, Pipeline
 
-### Using Convolutional Neural Networks for classifying FashionMNIST and CIFAR-10 dataset
+### Using Convolutional Neural Networks for classifying FashionMNIST and CIFAR10 dataset
 ---
 ![Image](https://aiinpractice.com/wp-content/uploads/2018/05/cifar10.jpg)
 
