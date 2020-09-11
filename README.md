@@ -18,6 +18,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |-|-|-|-|
 |[Predicting-Salary-Range-using-ML-Techniques](#Predicting-Salary-Range-using-ML-Techniques)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Salary-Range-using-ML-Techniques/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)|
 |[Predicting-Mutual-Fund-Ratings](#Using-ML-techniques-to-predict-GreatStone-Ratings-for-MutualFunds)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `sklearn.svm`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mutual-Fund-Ratings/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)|
+|[Using CNN to classify German Traffic Signs](#Using CNN to classify German Traffic Signs)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/German%20Traffic%20Signs/Using%20CNN%20to%20classify%20German%20Traffic%20Signs.ipynb)|
 |[FashionMNIST and CIFAR10 Classification using CNN](#Using-Convolutional-Neural-Networks-for-classifying-FashionMNIST-and-CIFAR10-dataset)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/CNN_on_FashionMNIST_CIFAR10_with_ImageAugmentation.ipynb)|
 |[Using DNN to classify images in Fashion-MNIST Dataset](#Using-Dense-Neural-Networks-for-classifying-FashionMNIST-dataset)|`Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/FashionMNIST_Classification.ipynb)|
 |[Handwritten Digit Classification](#Using-Dense-Neural-Networks-for-Street-View-House-Numbers-Identification)|`Neural Networks` | `tensorflow.keras`, `sklearn.preprocessing`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Handwritten%20Digit%20Classification/Predicting_hadnwritten_digits_using_DNN.ipynb)|
@@ -85,6 +86,37 @@ Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mut
 
 #### Skills and Tools
 LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMOTE, RandomUnderSampler, Pipeline
+
+### Using-CNN-to-classify-German-Traffic-Signs
+---
+![Image](https://pbs.twimg.com/media/DPdfoulVAAAoq86?format=jpg&name=medium)
+
+German Traffic Sign Recognition
+Multi-class, single-image classification
+
+Dataset
+The German Traffic Sign Benchmark is a multi-class, single-image classification challenge held at the International Joint Conference on Neural Networks (IJCNN) 2011. They cordially invite researchers from relevant fields to participate: The competition is designed to allow for participation without special domain knowledge. Their benchmark has the following properties:
+Single-image, multi-class classification problem
+More than 40 classes
+More than 50,000 images in total
+Large, lifelike database
+
+The details about the full GTSRB dataset and the results of the final competition that was held at IJCNN 2011 can be found in the paper "Man vs. Computer: Benchmarking Machine Learning Algorithms for Traffic Sign Recognition" that was accepted for publication in a Neural Networks Special Issue.
+
+The paper is currently in print, but it is already available as online version here:
+http://dx.doi.org/10.1016/j.neunet.2012.02.016
+
+Preliminary citation:
+
+J. Stallkamp, M. Schlipsing, J. Salmen, C. Igel, Man vs. computer: Benchmarking machine learning algorithms for traffic sign recognition, Neural Networks, Available online 20 February 2012, ISSN 0893-6080, 10.1016/j.neunet.2012.02.016. 
+(http://www.sciencedirect.com/science/article/pii/S0893608012000457) 
+Keywords: Traffic sign recognition; Machine learning; Convolutional neural networks; Benchmarking
+http://benchmark.ini.rub.de/
+
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/German%20Traffic%20Signs/Using%20CNN%20to%20classify%20German%20Traffic%20Signs.ipynb)|
+
+#### Skills and Tools
+Convolution, Maxpooling, Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam, Image Augmentation
 
 ### Using Convolutional Neural Networks for classifying FashionMNIST and CIFAR10 dataset
 ---
