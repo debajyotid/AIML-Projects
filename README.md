@@ -18,7 +18,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |-|-|-|-|
 |[Predicting-Salary-Range-using-ML-Techniques](#Predicting-Salary-Range-using-ML-Techniques)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Salary-Range-using-ML-Techniques/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)|
 |[Predicting-Mutual-Fund-Ratings](#Using-ML-techniques-to-predict-GreatStone-Ratings-for-MutualFunds)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `sklearn.svm`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mutual-Fund-Ratings/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)|
-|[Using CNN to classify German Traffic Signs](#Using CNN to classify German Traffic Signs)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/German%20Traffic%20Signs/Using%20CNN%20to%20classify%20German%20Traffic%20Signs.ipynb)|
+|[Using CNN to classify German Traffic Signs](#Using-CNN-to-classify-German-Traffic-Signs)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/German%20Traffic%20Signs/Using%20CNN%20to%20classify%20German%20Traffic%20Signs.ipynb)|
 |[FashionMNIST and CIFAR10 Classification using CNN](#Using-Convolutional-Neural-Networks-for-classifying-FashionMNIST-and-CIFAR10-dataset)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/CNN_on_FashionMNIST_CIFAR10_with_ImageAugmentation.ipynb)|
 |[Using DNN to classify images in Fashion-MNIST Dataset](#Using-Dense-Neural-Networks-for-classifying-FashionMNIST-dataset)|`Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/FashionMNIST_Classification.ipynb)|
 |[Handwritten Digit Classification](#Using-Dense-Neural-Networks-for-Street-View-House-Numbers-Identification)|`Neural Networks` | `tensorflow.keras`, `sklearn.preprocessing`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Handwritten%20Digit%20Classification/Predicting_hadnwritten_digits_using_DNN.ipynb)|
@@ -87,7 +87,7 @@ Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mut
 #### Skills and Tools
 LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMOTE, RandomUnderSampler, Pipeline
 
-### Using-CNN-to-classify-German-Traffic-Signs
+### Using CNN to classify German Traffic Signs
 ---
 ![Image](https://pbs.twimg.com/media/DPdfoulVAAAoq86?format=jpg&name=medium)
 
