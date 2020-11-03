@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Using_NLP_Techniques_to_analyze_IMDB_Movie_Reviews_Sentiment](#Bag-of-Words-Meets-Bags-of-Popcorn-Using-Google-Word2Vec-for-movie-reviews)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/IMDB-Reviews-Sentiment-Analysis-using-NLP-Technques/blob/main/IMDB%20Reviews%20Sentiment%20Analysis%20using%20NLP%20Technques.ipynb)|
 |[Analysing the impact of lockdown in curtailing the spread of COVID19 in Germany](#Determining-the-preparedness-of-the-German-Government-and-Medical-Authorities-in-handling-COVID19-Crisis)|`Statistical Methods` | `matplotlib.pyplot`, `scipy.stats`,  `sklearn.preprocessing`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Mini%20Capstone/Covid-19%20Germany%20(Data%20Pre%20Processing%20%26%20Hypothesis%20Testing)_Final%20version.ipynb)|
 |[Predicting Salary Range using ML Techniques](#Predicting-Salary-Range-using-ML-Techniques)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Salary-Range-using-ML-Techniques/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)|
 |[Predicting Mutual Fund Ratings](#Using-ML-techniques-to-predict-GreatStone-Ratings-for-MutualFunds)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `sklearn.svm`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mutual-Fund-Ratings/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)|
@@ -35,6 +36,21 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-Student-performance-prediction-system-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
+
+### Bag of Words Meets Bags of Popcorn Using Google Word2Vec for movie reviews
+---
+![Image](https://m.media-amazon.com/images/G/01/imdbpro/help/TVlanding._CB1564536689_.PNG)
+
+This exercise uses the data from Kaggle's IMDB Movie reviews competition [Click](https://www.kaggle.com/c/word2vec-nlp-tutorial/data).
+
+In this tutorial competition, we dig a little "deeper" into sentiment analysis. Google's Word2Vec is a deep-learning inspired method that focuses on the meaning of words. Word2Vec attempts to understand meaning and semantic relationships among words. It works in a way that is similar to deep approaches, such as recurrent neural nets or deep neural nets, but is computationally more efficient. This tutorial focuses on Word2Vec for sentiment analysis.
+
+Sentiment analysis is a challenging subject in machine learning. People express their emotions in language that is often obscured by sarcasm, ambiguity, and plays on words, all of which could be very misleading for both humans and computers. In this tutorial we explore how Word2Vec can be applied to a similar problem.
+
+#### Skills and Tools
+CountVectorizer,Tf-Idf Vectorizer,Glove-Word Embeddings,Word2Vec,Neural Networks,matplotlib.pyplot
+
+Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/IMDB-Reviews-Sentiment-Analysis-using-NLP-Technques/blob/main/IMDB%20Reviews%20Sentiment%20Analysis%20using%20NLP%20Technques.ipynb)
 
 ### Determining the preparedness of the German Government and Medical Authorities in handling COVID19 Crisis
 ---
