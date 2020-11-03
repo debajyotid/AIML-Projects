@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Using AWS SageMaker to predict Bike Sharing Demand](#Predict-Bike-Sharing-Demand-using-AWS-SageMaker)|`Model Deployment on Cloud` | `SageMaker`,`XGBoost`,`S3 Buckets`|[Click](https://github.com/debajyotid/SageMaker-Bike-Sharing)|
 |[Using NLP to classify Rotten Tomato Reviews into Sentiments](#Sentiment-Analysis-on-Movie-Reviews-Classify-the-sentiment-of-sentences-from-the-Rotten-Tomatoes-dataset)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Rotten-Tomatoes-review-Sentiment-Analysis/blob/main/Rotten%20Tomatoes%20review%20Sentiment%20Analysis.ipynb)|
 |[Using NLP Techniques to analyze IMDB Movie Reviews Sentiment](#Bag-of-Words-Meets-Bags-of-Popcorn-Using-Google-Word2Vec-for-movie-reviews)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/IMDB-Reviews-Sentiment-Analysis-using-NLP-Technques/blob/main/IMDB%20Reviews%20Sentiment%20Analysis%20using%20NLP%20Technques.ipynb)|
 |[Analysing the impact of lockdown in curtailing the spread of COVID19 in Germany](#Determining-the-preparedness-of-the-German-Government-and-Medical-Authorities-in-handling-COVID19-Crisis)|`Statistical Methods` | `matplotlib.pyplot`, `scipy.stats`,  `sklearn.preprocessing`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Mini%20Capstone/Covid-19%20Germany%20(Data%20Pre%20Processing%20%26%20Hypothesis%20Testing)_Final%20version.ipynb)|
@@ -37,6 +38,19 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-Student-performance-prediction-system-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
+
+### Using AWS SageMaker to predict Bike Sharing Demand
+---
+![Image](https://miro.medium.com/max/800/1*yvJHtU3WgsZAtjv33iH3gA.jpeg)
+
+The purpose of this repository is to develop a ML model to predict Bike Sharing demand as per the Kaggle competition [Click](https://www.kaggle.com/c/bike-sharing-demand/data)
+
+The Kaggel data is downloaded locally & then uploaded to AWS SageMaker Notebook instance & the data preprocessing, model training & validation, and finally prediction is done using 3 seperate Jupyter notebooks. The Notebook Instance is integrated with this GitHub repository, so all changes committed in AWS is pushed to this repo. The aim is not to achieve a highly successful model, but rather use the features of AWS SageMaker & make a cloud-deployment use-case
+
+Repo Link:|[Click](https://github.com/debajyotid/SageMaker-Bike-Sharing)
+
+#### Skills and Tools 
+SageMaker,XGBoost,S3 Buckets
 
 ### Sentiment Analysis on Movie Reviews Classify the sentiment of sentences from the Rotten Tomatoes dataset
 ---
