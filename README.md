@@ -16,7 +16,8 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
-|[Using_NLP_Techniques_to_analyze_IMDB_Movie_Reviews_Sentiment](#Bag-of-Words-Meets-Bags-of-Popcorn-Using-Google-Word2Vec-for-movie-reviews)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/IMDB-Reviews-Sentiment-Analysis-using-NLP-Technques/blob/main/IMDB%20Reviews%20Sentiment%20Analysis%20using%20NLP%20Technques.ipynb)|
+|[Using NLP to classify Rotten Tomato Reviews into Sentiments](#Sentiment-Analysis-on-Movie-Reviews-Classify-the-sentiment-of-sentences-from-the-Rotten-Tomatoes-dataset)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Rotten-Tomatoes-review-Sentiment-Analysis/blob/main/Rotten%20Tomatoes%20review%20Sentiment%20Analysis.ipynb)|
+|[Using NLP Techniques to analyze IMDB Movie Reviews Sentiment](#Bag-of-Words-Meets-Bags-of-Popcorn-Using-Google-Word2Vec-for-movie-reviews)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/IMDB-Reviews-Sentiment-Analysis-using-NLP-Technques/blob/main/IMDB%20Reviews%20Sentiment%20Analysis%20using%20NLP%20Technques.ipynb)|
 |[Analysing the impact of lockdown in curtailing the spread of COVID19 in Germany](#Determining-the-preparedness-of-the-German-Government-and-Medical-Authorities-in-handling-COVID19-Crisis)|`Statistical Methods` | `matplotlib.pyplot`, `scipy.stats`,  `sklearn.preprocessing`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Mini%20Capstone/Covid-19%20Germany%20(Data%20Pre%20Processing%20%26%20Hypothesis%20Testing)_Final%20version.ipynb)|
 |[Predicting Salary Range using ML Techniques](#Predicting-Salary-Range-using-ML-Techniques)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Salary-Range-using-ML-Techniques/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)|
 |[Predicting Mutual Fund Ratings](#Using-ML-techniques-to-predict-GreatStone-Ratings-for-MutualFunds)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `sklearn.svm`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mutual-Fund-Ratings/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)|
@@ -36,6 +37,23 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-Student-performance-prediction-system-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
+
+### Sentiment Analysis on Movie Reviews Classify the sentiment of sentences from the Rotten Tomatoes dataset
+---
+![Image](https://www.rottentomatoes.com/assets/pizza-pie/head-assets/images/RT_TwitterCard_2018.jpg)
+
+This exercise uses the data from Kaggle's Sentiment Analysis competition. [Click](https://www.kaggle.com/c/sentiment-analysis-on-movie-reviews/data).
+
+The Rotten Tomatoes movie review dataset is a corpus of movie reviews used for sentiment analysis, originally collected by Pang and Lee [1].
+
+In their work on sentiment treebanks, Socher et al. [2] used Amazon's Mechanical Turk to create fine-grained labels for all parsed phrases in the corpus.
+
+This competition presents a chance to benchmark your sentiment-analysis ideas on the Rotten Tomatoes dataset. You are asked to label phrases on a scale of five values: negative, somewhat negative, neutral, somewhat positive, positive. Obstacles like sentence negation, sarcasm, terseness, language ambiguity, and many others make this task very challenging.
+
+#### Skills and Tools
+CountVectorizer,Tf-Idf Vectorizer,Glove-Word Embeddings,Word2Vec,Neural Networks,matplotlib.pyplot
+
+Repo Link:|[Click](https://nbviewer.jupyter.org/github/debajyotid/Rotten-Tomatoes-review-Sentiment-Analysis/blob/main/Rotten%20Tomatoes%20review%20Sentiment%20Analysis.ipynb)
 
 ### Bag of Words Meets Bags of Popcorn Using Google Word2Vec for movie reviews
 ---
