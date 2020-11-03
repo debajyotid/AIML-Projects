@@ -39,7 +39,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
 
-### Using AWS SageMaker to predict Bike Sharing Demand
+### Predict Bike Sharing Demand using AWS SageMaker
 ---
 ![Image](https://miro.medium.com/max/800/1*yvJHtU3WgsZAtjv33iH3gA.jpeg)
 
