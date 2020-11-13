@@ -20,6 +20,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Using NLP to classify Rotten Tomato Reviews into Sentiments](#Sentiment-Analysis-on-Movie-Reviews-Classify-the-sentiment-of-sentences-from-the-Rotten-Tomatoes-dataset)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Rotten-Tomatoes-review-Sentiment-Analysis/blob/main/Rotten%20Tomatoes%20review%20Sentiment%20Analysis.ipynb)|
 |[Using NLP Techniques to analyze IMDB Movie Reviews Sentiment](#Bag-of-Words-Meets-Bags-of-Popcorn-Using-Google-Word2Vec-for-movie-reviews)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/IMDB-Reviews-Sentiment-Analysis-using-NLP-Technques/blob/main/IMDB%20Reviews%20Sentiment%20Analysis%20using%20NLP%20Technques.ipynb)|
 |[Analysing the impact of lockdown in curtailing the spread of COVID19 in Germany](#Determining-the-preparedness-of-the-German-Government-and-Medical-Authorities-in-handling-COVID19-Crisis)|`Statistical Methods` | `matplotlib.pyplot`, `scipy.stats`,  `sklearn.preprocessing`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Mini%20Capstone/Covid-19%20Germany%20(Data%20Pre%20Processing%20%26%20Hypothesis%20Testing)_Final%20version.ipynb)|
+|[Imbalanced Dataset handling and PCA to reduce multi-collinearity](#Understanding-impact-of-Imblearn-and-PCA)|`Imbalanced Learning-PCA` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `RandomForestClassifier`, `sklearn.ensemble`,`pca`|[Click](https://github.com/debajyotid/Understanding-impact-of-Imblearn-and-PCA/blob/main/Understanding%20impact%20of%20Imblearn%20and%20PCA.ipynb)|
 |[Predicting Salary Range using ML Techniques](#Predicting-Salary-Range-using-ML-Techniques)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Salary-Range-using-ML-Techniques/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)|
 |[Predicting Mutual Fund Ratings](#Using-ML-techniques-to-predict-GreatStone-Ratings-for-MutualFunds)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `sklearn.svm`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mutual-Fund-Ratings/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)|
 |[Using CNN to classify German Traffic Signs](#Using-CNN-to-classify-German-Traffic-Signs)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/German%20Traffic%20Signs/Using%20CNN%20to%20classify%20German%20Traffic%20Signs.ipynb)|
@@ -104,6 +105,19 @@ Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/bl
 
 #### Skills and Tools
 Statistics, EDA, Visualization
+
+### Understanding impact of Imblearn and PCA
+---
+An imbalanced classification problem is an example of a classification problem where the distribution of examples across the known classes is biased or skewed. The distribution can vary from a slight bias to a severe imbalance where there is one example in the minority class for hundreds, thousands, or millions of examples in the majority class or classes.
+
+Imbalanced classifications pose a challenge for predictive modeling as most of the machine learning algorithms used for classification were designed around the assumption of an equal number of examples for each class. This results in models that have poor predictive performance, specifically for the minority class. This is a problem because typically, the minority class is more important and therefore the problem is more sensitive to classification errors for the minority class than the majority class.
+
+In this notebook we look to understand how we can solve this problem using different techniques like SMOTE, TomekLinks, RandomUnderSampler, etc. We also try to implemet PCA to reduce the number of collinear features, so as to avoid the problem of multi-collinearity & also arrive at a simpler model; without having too much of a negative impact on the predictive ability of the model.
+
+Repo Link: [Click](https://github.com/debajyotid/Understanding-impact-of-Imblearn-and-PCA/blob/main/Understanding%20impact%20of%20Imblearn%20and%20PCA.ipynb)
+
+#### Skills and Tools
+LabelBinarizer, RandomForestClassifier, TomekLinks, SMOTE, RandomUnderSampler, Pipeline, PCA
 
 ### Predicting Salary Range using ML Techniques
 ---
