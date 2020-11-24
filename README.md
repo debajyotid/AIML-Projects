@@ -46,7 +46,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Kaggle Blog Authoship Corpus Challenge
 ---
 ## Using Statistical NLP to predict author of Blog
-![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWPQz0K1jIUTRxvq56_WDLPLbBHYZSTkzfX0JjRGM5mZbOU_JbR0ywmEoFGADaJ9gJQ_XDJJ4ZEUs0051lQ6tenc2E7kDB3l8&usqp=CAU&ec=45730947)
+
 The Blog Authorship Corpus consists of the collected posts of 19,320 bloggers gathered from blogger.com in August 2004. The corpus incorporates a total of 681,288 posts and over 140 million words - or approximately 35 posts and 7250 words per person.
 
 Each blog is presented as a separate file, the name of which indicates a blogger id# and the blogger’s self-provided gender, age, industry and astrological sign. (All are labeled for gender and age but for many, industry and/or sign is marked as unknown.)
