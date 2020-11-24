@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Using Statistical NLP to predict author of Blog](#Kaggle-Blog-Authoship-Corpus-Challenge)|`Statistical NLP` | `NLTK`,`WordNetLemmatizer`,`CountVectorizer`,`OneVsRestClassifier`,`LogisticRegression`,`MultiLabelBinarizer`|[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)|
 |[Using Computer Vision and Transfer Learning to distinguish between Original and Fake Images](#Fake-vs-Real-Image-Detection-Challenge)|`Image Detection` | `Resnet50`,`Computer Vision`,`Image Augmentation`|[Click](https://github.com/debajyotid/Fake-vs-Real-Image-Detection-Challenge)|
 |[Using AWS SageMaker to predict Bike Sharing Demand](#Predict-Bike-Sharing-Demand-using-AWS-SageMaker)|`Model Deployment on Cloud` | `SageMaker`,`XGBoost`,`S3 Buckets`|[Click](https://github.com/debajyotid/SageMaker-Bike-Sharing)|
 |[Using NLP to classify Rotten Tomato Reviews into Sentiments](#Sentiment-Analysis-on-Movie-Reviews-Classify-the-sentiment-of-sentences-from-the-Rotten-Tomatoes-dataset)|`Natural Language Processing` | `CountVectorizer`,`Tf-Idf Vectorizer`,`Glove-Word Embeddings`,`Word2Vec`,`Neural Networks`,`matplotlib.pyplot`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Rotten-Tomatoes-review-Sentiment-Analysis/blob/main/Rotten%20Tomatoes%20review%20Sentiment%20Analysis.ipynb)|
@@ -42,6 +43,29 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
 
+### Kaggle Blog Authoship Corpus Challenge
+---
+## Using Statistical NLP to predict author of Blog
+![Image] (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWPQz0K1jIUTRxvq56_WDLPLbBHYZSTkzfX0JjRGM5mZbOU_JbR0ywmEoFGADaJ9gJQ_XDJJ4ZEUs0051lQ6tenc2E7kDB3l8&usqp=CAU&ec=45730947)
+The Blog Authorship Corpus consists of the collected posts of 19,320 bloggers gathered from blogger.com in August 2004. The corpus incorporates a total of 681,288 posts and over 140 million words - or approximately 35 posts and 7250 words per person.
+
+Each blog is presented as a separate file, the name of which indicates a blogger id# and the blogger’s self-provided gender, age, industry and astrological sign. (All are labeled for gender and age but for many, industry and/or sign is marked as unknown.)
+
+All bloggers included in the corpus fall into one of three age groups:
+
+8240 "10s" blogs (ages 13-17),
+8086 "20s" blogs(ages 23-27)
+2994 "30s" blogs (ages 33-47).
+For each age group there are an equal number of male and female bloggers.
+
+Each blog in the corpus includes at least 200 occurrences of common English words.
+
+This dataset contains information on writers demographics, including their age, gender and zodiac sign. Can we build a classifier to guess someone’s zodiac sign from blog posts they’ve written?
+
+Repo Link:[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)
+
+#### Skills and Tools 
+NLTK,WordNetLemmatizer,CountVectorizer,OneVsRestClassifier,LogisticRegression,MultiLabelBinarizer
 
 ### Fake vs Real Image Detection Challenge
 ---
