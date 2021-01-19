@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Using Mobilenet in UNet Architecture to predict Face Masks](#WIDER-Face-Dataset)|`Face Detection` | `UNet`,`MobileNet`,`CV2`,`Dice-Coefficient`,`Callbacks`,`ReduceLROnPlateau`,`EarlyStopping`,`ModelCheckpoint`,`Learning Plots`|[Click](https://github.com/debajyotid/Using-MobileNet-in-UNet-Architecture-to-build-a-Face-Mask-Prediction-Model/blob/main/Using%20MobileNet%20in%20UNet%20Architecture%20to%20build%20a%20Face%20Mask%20Prediction%20Model.ipynb)|
 |[Using Statistical NLP to predict author of Blog](#Kaggle-Blog-Authoship-Corpus-Challenge)|`Statistical NLP` | `NLTK`,`WordNetLemmatizer`,`CountVectorizer`,`OneVsRestClassifier`,`LogisticRegression`,`MultiLabelBinarizer`|[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)|
 |[Using Computer Vision and Transfer Learning to distinguish between Original and Fake Images](#Fake-vs-Real-Image-Detection-Challenge)|`Image Detection` | `Resnet50`,`Computer Vision`,`Image Augmentation`|[Click](https://github.com/debajyotid/Fake-vs-Real-Image-Detection-Challenge)|
 |[Using AWS SageMaker to predict Bike Sharing Demand](#Predict-Bike-Sharing-Demand-using-AWS-SageMaker)|`Model Deployment on Cloud` | `SageMaker`,`XGBoost`,`S3 Buckets`|[Click](https://github.com/debajyotid/SageMaker-Bike-Sharing)|
@@ -42,6 +43,21 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-Student-performance-prediction-system-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
+
+### WIDER Face Dataset Face Mask Prediction
+---
+## Using Mobilenet in UNet Architecture to predict Face Masks
+
+WIDER FACE dataset is a face detection benchmark dataset, of which images are selected from the publicly available WIDER dataset. We choose 32,203 images and label 393,703 faces with a high degree of variability in scale, pose and occlusion as depicted in the sample images. WIDER FACE dataset is organized based on 61 event classes. 
+
+In this project, we are using 409 images and around 1000 faces for ease of computation.
+
+We will be using transfer learning on an already trained model. We will use the MobileNet model which is already trained to detect the face attributes. We will need to train the last 6-7 layers and freeze the remaining layers to train the model for predicting the mask on the face. We use the MobileNet as the building block for a U-Net Architecture.
+
+Repo Link:[Click](https://github.com/debajyotid/Using-MobileNet-in-UNet-Architecture-to-build-a-Face-Mask-Prediction-Model/blob/main/Using%20MobileNet%20in%20UNet%20Architecture%20to%20build%20a%20Face%20Mask%20Prediction%20Model.ipynb)
+
+#### Skills and Tools 
+UNet,MobileNet,CV2,Dice-Coefficient,Callbacks,ReduceLROnPlateau,EarlyStopping,ModelCheckpoint,Learning Plots
 
 ### Kaggle Blog Authoship Corpus Challenge
 ---
