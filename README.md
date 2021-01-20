@@ -28,6 +28,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Predicting Salary Range using ML Techniques](#Predicting-Salary-Range-using-ML-Techniques)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Salary-Range-using-ML-Techniques/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)|
 |[Predicting Mutual Fund Ratings](#Using-ML-techniques-to-predict-GreatStone-Ratings-for-MutualFunds)|`Ensemble Techniques` | `sklearn.model_selection`, `sklearn.preprocessing`,  `imblearn`, `sklearn.svm`, `xgboost`, `sklearn.ensemble`,`mlxtend.classifier`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mutual-Fund-Ratings/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)|
 |[Using CNN to classify German Traffic Signs](#Using-CNN-to-classify-German-Traffic-Signs)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/German%20Traffic%20Signs/Using%20CNN%20to%20classify%20German%20Traffic%20Signs.ipynb)|
+|[Using Computer Vision to classify Plant Seedlings](#Using-Computer-Vision-to-classify-Plant-Seedlings)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://github.com/debajyotid/Using-Computer-Vision-to-classify-Plant-Seedlings/blob/main/Using%20Computer%20Vision%20to%20classify%20Plant%20Seedlings.ipynb)|
 |[FashionMNIST and CIFAR10 Classification using CNN](#Using-Convolutional-Neural-Networks-for-classifying-FashionMNIST-and-CIFAR10-dataset)|`Convolutional Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/CNN_on_FashionMNIST_CIFAR10_with_ImageAugmentation.ipynb)|
 |[Using DNN to classify images in Fashion-MNIST Dataset](#Using-Dense-Neural-Networks-for-classifying-FashionMNIST-dataset)|`Neural Networks` | `tensorflow.keras`, `tensorflow.keras.preprocessing.image`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/FashionMNIST_Classification.ipynb)|
 |[Handwritten Digit Classification](#Using-Dense-Neural-Networks-for-Street-View-House-Numbers-Identification)|`Neural Networks` | `tensorflow.keras`, `sklearn.preprocessing`,`sklearn.model_selection`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Handwritten%20Digit%20Classification/Predicting_hadnwritten_digits_using_DNN.ipynb)|
@@ -291,6 +292,21 @@ Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/bl
 
 #### Skills and Tools
 Convolution, Maxpooling, Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam, Image Augmentation
+
+### Using-Computer-Vision-to-classify-Plant-Seedlings
+---
+![Image](https://miro.medium.com/max/3868/1*KLmWe8SDXjqKzpd_qMomzw.png)
+
+This dataset gives us an opportunity to experiment with different image recognition techniques, as well to provide a place to cross-pollenate ideas. The ability to do so effectively can mean better crop yields and better stewardship of the environment. Can we differentiate a weed from a crop seedling? Given an image, how do we differentiate between different plant types?
+
+The Aarhus University Signal Processing group, in collaboration with the University of Southern Denmark, has recently released a dataset containing images of approximately 960 unique plants belonging to 12 species at several growth stages.
+
+Here we are provided with a training set and a test set of images of plant seedlings at various stages of growing. Each image has a filename that is its unique id. The dataset comprises 12 plant species. The objective is to create a classifier capable of determining a plant's species from a photo
+
+Repo Link:|[Click](https://github.com/debajyotid/Using-Computer-Vision-to-classify-Plant-Seedlings/blob/main/Using%20Computer%20Vision%20to%20classify%20Plant%20Seedlings.ipynb)|
+
+#### Skills and Tools
+tensorflow.keras, tensorflow.keras.preprocessing.image,sklearn.model_selection
 
 ### Using Convolutional Neural Networks for classifying FashionMNIST and CIFAR10 dataset
 ---
