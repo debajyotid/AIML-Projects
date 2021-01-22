@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Face Recognition model using VGG](#Alligned-Face-Dataset-PinteresStandardScalert)|`Face Recognition` | `VGG`,`SVM`,`Embeddings`,`Similarity Distance`,`OpenCV`,`PCA`,`StandardScaler`,`LabelEncoder`,|[Click](https://github.com/debajyotid/Creating-a-Face-Recognition-Model-using-a-VGG-Architecture-and-pretrained-weights/blob/main/Creating%20a%20Face%20Recognition%20Model%20using%20a%20VGG%20Architecture%20and%20pretrained%20weights.ipynb)|
 |[Using Mobilenet in UNet Architecture to predict Face Masks](#WIDER-Face-Dataset)|`Face Detection` | `UNet`,`MobileNet`,`CV2`,`Dice-Coefficient`,`Callbacks`,`ReduceLROnPlateau`,`EarlyStopping`,`ModelCheckpoint`,`Learning Plots`|[Click](https://github.com/debajyotid/Using-MobileNet-in-UNet-Architecture-to-build-a-Face-Mask-Prediction-Model/blob/main/Using%20MobileNet%20in%20UNet%20Architecture%20to%20build%20a%20Face%20Mask%20Prediction%20Model.ipynb)|
 |[Using Statistical NLP to predict author of Blog](#Kaggle-Blog-Authoship-Corpus-Challenge)|`Statistical NLP` | `NLTK`,`WordNetLemmatizer`,`CountVectorizer`,`OneVsRestClassifier`,`LogisticRegression`,`MultiLabelBinarizer`|[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)|
 |[Using Computer Vision and Transfer Learning to distinguish between Original and Fake Images](#Fake-vs-Real-Image-Detection-Challenge)|`Image Detection` | `Resnet50`,`Computer Vision`,`Image Augmentation`|[Click](https://github.com/debajyotid/Fake-vs-Real-Image-Detection-Challenge)|
@@ -44,6 +45,37 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-Student-performance-prediction-system-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
+
+### Alligned Face Dataset Pinterest
+---
+## Face Recognition
+In this hands-on project, the goal is to build a face identification model to recognize faces. 
+The model uses Aligned Face Dataset from Pinterest. This dataset contains 10770 images for 100 people. All images are taken from 'Pinterest' and aligned using dlib library.
+
+## Overview
+In this problem, we use a pre-trained model trained on Face recognition to recognize similar faces.
+Here, we are particularly interested in recognizing whether two given faces are of the same person or not. Below are the steps performed in the project.
+
+● Load the dataset and create the metadata.
+
+● Check some samples of metadata.
+
+● Load the pre-trained model and weights.
+
+● Generate Embedding vectors for each face in the dataset.
+
+● Build distance metrics for identifying the distance between two given images.
+
+● Use PCA for dimensionality reduction.
+
+● Build an SVM classifier to map each image to its right person.
+
+● Predict using the SVM model.
+
+Repo Link:[Click](https://github.com/debajyotid/Creating-a-Face-Recognition-Model-using-a-VGG-Architecture-and-pretrained-weights/blob/main/Creating%20a%20Face%20Recognition%20Model%20using%20a%20VGG%20Architecture%20and%20pretrained%20weights.ipynb)
+
+#### Skills and Tools
+Face Recognition, VGG,SVM,Embeddings,Similarity Distance,OpenCV,PCA,StandardScaler,LabelEncoder
 
 ### WIDER Face Dataset
 ---
