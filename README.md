@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Identifying Dog Breeds based on Visual Variations in appearance, using Convolution Neural Networks & Transfer Learning](#Using-CNN-to-classify-Dog-Breeds-based-on-images)|`Capstone Project` | `CNN`,`VGG16`,`ResNet50`,`MobileNetV2`,`Image Augmentation`,`Transfer Learning`|[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)|
 |[Face Recognition model using VGG](#Alligned-Face-Dataset-Pinterest)|`Face Recognition` | `VGG`,`SVM`,`Embeddings`,`Similarity Distance`,`OpenCV`,`PCA`,`StandardScaler`,`LabelEncoder`,|[Click](https://github.com/debajyotid/Creating-a-Face-Recognition-Model-using-a-VGG-Architecture-and-pretrained-weights/blob/main/Creating%20a%20Face%20Recognition%20Model%20using%20a%20VGG%20Architecture%20and%20pretrained%20weights.ipynb)|
 |[Using Mobilenet in UNet Architecture to predict Face Masks](#WIDER-Face-Dataset)|`Face Detection` | `UNet`,`MobileNet`,`CV2`,`Dice-Coefficient`,`Callbacks`,`ReduceLROnPlateau`,`EarlyStopping`,`ModelCheckpoint`,`Learning Plots`|[Click](https://github.com/debajyotid/Using-MobileNet-in-UNet-Architecture-to-build-a-Face-Mask-Prediction-Model/blob/main/Using%20MobileNet%20in%20UNet%20Architecture%20to%20build%20a%20Face%20Mask%20Prediction%20Model.ipynb)|
 |[Using Statistical NLP to predict author of Blog](#Kaggle-Blog-Authoship-Corpus-Challenge)|`Statistical NLP` | `NLTK`,`WordNetLemmatizer`,`CountVectorizer`,`OneVsRestClassifier`,`LogisticRegression`,`MultiLabelBinarizer`|[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)|
@@ -45,6 +46,27 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-Student-performance-prediction-system-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
+
+### Using CNN to classify Dog Breeds based on images
+---
+![Image](https://user-images.githubusercontent.com/25509152/33898274-fa96ef88-df78-11e7-8f4c-59105584fdce.png)
+
+The purpose of this repository is to identify & classify the breed of a dog, based on the subtle changes in its visual appearance. The idea is to explore advanced computer vision techniques to intelligently & correctly predict the breed of a dog. The data-set used for this project was hosted by Kaggle, as part of their Kaggle Playground Prediction Competition in 2017. [Click](https://www.kaggle.com/c/dog-breed-identification)
+
+The data-set is a strictly canine subset of ImageNet & comprised of 120 breeds of dogs and a limited number training images per class. Each image was assigned a unique id and the same was tagged against the breed the dog in the image belonged to in a separate csv file.
+
+We have tried 3 types of image resizing techniques before feeding to our models:
+
+1.128X128X1
+2.128X128X3
+3.224X224X3
+
+We have predominantly used 80:20 split for training & validation sets, but in the last iteration we have also tried to build the model on 90:10 split. We have throughout used only 10000 of the total 10222 records for training & validation.
+
+We have evaluated 10 different types of models, details of which, along with other details like Evaluation techniques, metrices used, etc. can be found in the below repo. Repo Link:|[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)
+
+#### Skills and Tools 
+CNN,VGG16,ResNet50,MobileNetV2,Image Augmentation,Transfer Learning
 
 ### Alligned Face Dataset Pinterest
 ---
