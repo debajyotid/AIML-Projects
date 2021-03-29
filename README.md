@@ -69,16 +69,16 @@ We have evaluated 10 different types of models, details of which, along with oth
 #### Skills and Tools 
 CNN,VGG16,ResNet50,MobileNetV2,Image Augmentation,Transfer Learning
 
-### Using Siamese Networks to distinguish a Forged Signature from Genuine Signature 
+### Signature Verification using Siamese Networks 
 ---
 
-## Problem Statement:
+#### Problem Statement:
 ---
 Signature is one of the most popular and commonly accepted biometric hallmarks that has been used since the ancient times for verifying different entities related to human beings, viz. documents, forms, bank checks, individuals, etc. Therefore, signature verification is a critical task and many efforts have been made to remove the uncertainty involved in the manual authentication procedure, which makes signature verification an important research line in the field of machine learning and pattern recognition.
 
 In this notebook, we model a writer independent signature verification task with a convolutional Siamese network.
 
-## About the Dataset:
+#### About the Dataset:
 ---
 The BHSig260 signature dataset contains the signatures of 260 persons, among them 100 were signed in Bengali and 160 are signed in Hindi.
 
