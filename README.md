@@ -17,6 +17,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
 |[Identifying Dog Breeds based on Visual Variations in appearance, using Convolution Neural Networks & Transfer Learning](#Using-CNN-to-classify-Dog-Breeds-based-on-images)|`Capstone Project` | `CNN`,`VGG16`,`ResNet50`,`MobileNetV2`,`Image Augmentation`,`Transfer Learning`|[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)|
+|[Using Siamese Networks to distinguish a Forged Signature from Genuine Signature](#Signature-Verification-using-Siamese-Networks)|`Advanced Computer Vision` | `CNN`,`Siamese Network`,`Contrastive Loss`,`Model Checkpoint`,`Signature Verification`|[Click](https://github.com/debajyotid/Signature-Verification-using-Siamese-Networks)|
 |[Face Recognition model using VGG](#Alligned-Face-Dataset-Pinterest)|`Face Recognition` | `VGG`,`SVM`,`Embeddings`,`Similarity Distance`,`OpenCV`,`PCA`,`StandardScaler`,`LabelEncoder`,|[Click](https://github.com/debajyotid/Creating-a-Face-Recognition-Model-using-a-VGG-Architecture-and-pretrained-weights/blob/main/Creating%20a%20Face%20Recognition%20Model%20using%20a%20VGG%20Architecture%20and%20pretrained%20weights.ipynb)|
 |[Using Mobilenet in UNet Architecture to predict Face Masks](#WIDER-Face-Dataset)|`Face Detection` | `UNet`,`MobileNet`,`CV2`,`Dice-Coefficient`,`Callbacks`,`ReduceLROnPlateau`,`EarlyStopping`,`ModelCheckpoint`,`Learning Plots`|[Click](https://github.com/debajyotid/Using-MobileNet-in-UNet-Architecture-to-build-a-Face-Mask-Prediction-Model/blob/main/Using%20MobileNet%20in%20UNet%20Architecture%20to%20build%20a%20Face%20Mask%20Prediction%20Model.ipynb)|
 |[Using Statistical NLP to predict author of Blog](#Kaggle-Blog-Authoship-Corpus-Challenge)|`Statistical NLP` | `NLTK`,`WordNetLemmatizer`,`CountVectorizer`,`OneVsRestClassifier`,`LogisticRegression`,`MultiLabelBinarizer`|[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)|
@@ -67,6 +68,33 @@ We have evaluated 10 different types of models, details of which, along with oth
 
 #### Skills and Tools 
 CNN,VGG16,ResNet50,MobileNetV2,Image Augmentation,Transfer Learning
+
+### Using Siamese Networks to distinguish a Forged Signature from Genuine Signature 
+---
+
+## Problem Statement:
+---
+Signature is one of the most popular and commonly accepted biometric hallmarks that has been used since the ancient times for verifying different entities related to human beings, viz. documents, forms, bank checks, individuals, etc. Therefore, signature verification is a critical task and many efforts have been made to remove the uncertainty involved in the manual authentication procedure, which makes signature verification an important research line in the field of machine learning and pattern recognition.
+
+In this notebook, we model a writer independent signature verification task with a convolutional Siamese network.
+
+## About the Dataset:
+---
+The BHSig260 signature dataset contains the signatures of 260 persons, among them 100 were signed in Bengali and 160 are signed in Hindi.
+
+For each of the signers, 24 genuine and 30 forged signatures are available. This results in:
+
+100 × 24 = 2400 genuine and 100 × 30 = 3000 forged signatures in Bengali, and 
+160 × 24 = 3840 genuine and 160×30 = 4800 forged signatures in Hindi.
+
+In this task we are considering only Hindi singatures for easeness.
+
+Paper Link: https://arxiv.org/pdf/1707.02131.pdf
+
+Repo Link:[Click](https://github.com/debajyotid/Signature-Verification-using-Siamese-Networks)
+
+#### Skills and Tools
+CNN,Siamese Network,Contrastive Loss,Model Checkpoint,Signature Verification
 
 ### Alligned Face Dataset Pinterest
 ---
