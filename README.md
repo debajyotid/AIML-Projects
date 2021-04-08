@@ -64,7 +64,10 @@ We have tried 3 types of image resizing techniques before feeding to our models:
 
 We have predominantly used 80:20 split for training & validation sets, but in the last iteration we have also tried to build the model on 90:10 split. We have throughout used only 10000 of the total 10222 records for training & validation.
 
-We have evaluated 10 different types of models, details of which, along with other details like Evaluation techniques, metrices used, etc. can be found in the below repo. Repo Link:|[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)
+We have evaluated 10 different types of models, details of which, along with other details like Evaluation techniques, metrices used, etc. can be found in the below repo. 
+
+#### Repo Link
+[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)
 
 #### Skills and Tools 
 CNN,VGG16,ResNet50,MobileNetV2,Image Augmentation,Transfer Learning
@@ -91,7 +94,8 @@ In this task we are considering only Hindi singatures for easeness.
 
 Paper Link: https://arxiv.org/pdf/1707.02131.pdf
 
-Repo Link:[Click](https://github.com/debajyotid/Signature-Verification-using-Siamese-Networks)
+#### Repo Link:
+[Click](https://github.com/debajyotid/Signature-Verification-using-Siamese-Networks)
 
 #### Skills and Tools
 CNN,Siamese Network,Contrastive Loss,Model Checkpoint,Signature Verification
@@ -122,7 +126,8 @@ Here, we are particularly interested in recognizing whether two given faces are 
 
 ● Predict using the SVM model.
 
-Repo Link:[Click](https://github.com/debajyotid/Creating-a-Face-Recognition-Model-using-a-VGG-Architecture-and-pretrained-weights/blob/main/Creating%20a%20Face%20Recognition%20Model%20using%20a%20VGG%20Architecture%20and%20pretrained%20weights.ipynb)
+#### Repo Link
+[Click](https://github.com/debajyotid/Creating-a-Face-Recognition-Model-using-a-VGG-Architecture-and-pretrained-weights/blob/main/Creating%20a%20Face%20Recognition%20Model%20using%20a%20VGG%20Architecture%20and%20pretrained%20weights.ipynb)
 
 #### Skills and Tools
 Face Recognition, VGG,SVM,Embeddings,Similarity Distance,OpenCV,PCA,StandardScaler,LabelEncoder
@@ -137,7 +142,8 @@ In this project, we are using 409 images and around 1000 faces for ease of compu
 
 We will be using transfer learning on an already trained model. We will use the MobileNet model which is already trained to detect the face attributes. We will need to train the last 6-7 layers and freeze the remaining layers to train the model for predicting the mask on the face. We use the MobileNet as the building block for a U-Net Architecture.
 
-Repo Link:[Click](https://github.com/debajyotid/Using-MobileNet-in-UNet-Architecture-to-build-a-Face-Mask-Prediction-Model/blob/main/Using%20MobileNet%20in%20UNet%20Architecture%20to%20build%20a%20Face%20Mask%20Prediction%20Model.ipynb)
+#### Repo Link
+[Click](https://github.com/debajyotid/Using-MobileNet-in-UNet-Architecture-to-build-a-Face-Mask-Prediction-Model/blob/main/Using%20MobileNet%20in%20UNet%20Architecture%20to%20build%20a%20Face%20Mask%20Prediction%20Model.ipynb)
 
 #### Skills and Tools 
 UNet,MobileNet,CV2,Dice-Coefficient,Callbacks,ReduceLROnPlateau,EarlyStopping,ModelCheckpoint,Learning Plots
@@ -161,7 +167,8 @@ Each blog in the corpus includes at least 200 occurrences of common English word
 
 This dataset contains information on writers demographics, including their age, gender and zodiac sign. Can we build a classifier to guess someone’s zodiac sign from blog posts they’ve written?
 
-Repo Link:[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)
+#### Repo Link
+[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)
 
 #### Skills and Tools 
 NLTK,WordNetLemmatizer,CountVectorizer,OneVsRestClassifier,LogisticRegression,MultiLabelBinarizer
@@ -182,7 +189,8 @@ With the rise of electronic media in the form of social media primarily, there h
 The Fake vs Real Image Detection Challenge draws inspiration from the above mentioned misrepresentation of data and tries to solve this problem using computer vision techniques.
 Fake and Real images have been provided and we need to build a model that can segregate test images into Fake and Real Images. A mobile application or a software integrated into the mobile’s operating system can be built using this technology which can segregate fake images from real ones.
 
-Repo Link:|[Click](https://github.com/debajyotid/Fake-vs-Real-Image-Detection-Challenge)
+#### Repo Link
+[Click](https://github.com/debajyotid/Fake-vs-Real-Image-Detection-Challenge)
 
 #### Skills and Tools 
 Resnet50,Computer Vision,Image Augmentation
@@ -195,7 +203,8 @@ The purpose of this repository is to develop a ML model to predict Bike Sharing 
 
 The Kaggel data is downloaded locally & then uploaded to AWS SageMaker Notebook instance & the data preprocessing, model training & validation, and finally prediction is done using 3 seperate Jupyter notebooks. The Notebook Instance is integrated with this GitHub repository, so all changes committed in AWS is pushed to this repo. The aim is not to achieve a highly successful model, but rather use the features of AWS SageMaker & make a cloud-deployment use-case
 
-Repo Link:|[Click](https://github.com/debajyotid/SageMaker-Bike-Sharing)
+#### Repo Link
+[Click](https://github.com/debajyotid/SageMaker-Bike-Sharing)
 
 #### Skills and Tools 
 SageMaker,XGBoost,S3 Buckets
@@ -215,7 +224,8 @@ This competition presents a chance to benchmark your sentiment-analysis ideas on
 #### Skills and Tools
 CountVectorizer,Tf-Idf Vectorizer,Glove-Word Embeddings,Word2Vec,Neural Networks,matplotlib.pyplot
 
-Repo Link:|[Click](https://nbviewer.jupyter.org/github/debajyotid/Rotten-Tomatoes-review-Sentiment-Analysis/blob/main/Rotten%20Tomatoes%20review%20Sentiment%20Analysis.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Rotten-Tomatoes-review-Sentiment-Analysis/blob/main/Rotten%20Tomatoes%20review%20Sentiment%20Analysis.ipynb)
 
 ### Bag of Words Meets Bags of Popcorn Using Google Word2Vec for movie reviews
 ---
@@ -230,7 +240,8 @@ Sentiment analysis is a challenging subject in machine learning. People express 
 #### Skills and Tools
 CountVectorizer,Tf-Idf Vectorizer,Glove-Word Embeddings,Word2Vec,Neural Networks,matplotlib.pyplot
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/IMDB-Reviews-Sentiment-Analysis-using-NLP-Technques/blob/main/IMDB%20Reviews%20Sentiment%20Analysis%20using%20NLP%20Technques.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/IMDB-Reviews-Sentiment-Analysis-using-NLP-Technques/blob/main/IMDB%20Reviews%20Sentiment%20Analysis%20using%20NLP%20Technques.ipynb)
 
 ### Determining the preparedness of the German Government and Medical Authorities in handling COVID19 Crisis
 ---
@@ -248,7 +259,8 @@ Statistical methods like t-Test & ANOVA resulted in extremely low p-values, base
 Conclusion: 
 Based on the above, we could statistically prove that the timely measures and steps taken by German authorities, like imposition of the lockdown, helped in both controlling the spread of COVID-19 across Germany, as well as kept the rate of fatalities due to the same at a relatively low rate.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Mini%20Capstone/Covid-19%20Germany%20(Data%20Pre%20Processing%20%26%20Hypothesis%20Testing)_Final%20version.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Mini%20Capstone/Covid-19%20Germany%20(Data%20Pre%20Processing%20%26%20Hypothesis%20Testing)_Final%20version.ipynb)
 
 #### Skills and Tools
 Statistics, EDA, Visualization
@@ -274,7 +286,8 @@ LightGBM, short for Light Gradient Boosting Machine, is a free and open source d
 
 The LightGBM framework supports different algorithms including GBT, GBDT, GBRT, GBM, MART and RF. LightGBM has many of XGBoost's advantages, including sparse optimization, parallel training, multiple loss functions, regularization, bagging, and early stopping. A major difference between the two lies in the construction of trees. LightGBM does not grow a tree level-wise — row by row — as most other implementations do. Instead it grows trees leaf-wise. It chooses the leaf it believes will yield the largest decrease in loss.
 
-Repo Link: [Click](https://github.com/debajyotid/Understanding-the-performance-of-LightGBM-and-XGBoost/blob/main/Understanding%20the%20performance%20of%20LightGBM%20and%20XGBoost.ipynb)
+#### Repo Link
+[Click](https://github.com/debajyotid/Understanding-the-performance-of-LightGBM-and-XGBoost/blob/main/Understanding%20the%20performance%20of%20LightGBM%20and%20XGBoost.ipynb)
 
 #### Skills and Tools
 LabelBinarizer, XGBoost, LightGBM, PCA
@@ -287,7 +300,8 @@ Imbalanced classifications pose a challenge for predictive modeling as most of t
 
 In this notebook we look to understand how we can solve this problem using different techniques like SMOTE, TomekLinks, RandomUnderSampler, etc. We also try to implemet PCA to reduce the number of collinear features, so as to avoid the problem of multi-collinearity & also arrive at a simpler model; without having too much of a negative impact on the predictive ability of the model.
 
-Repo Link: [Click](https://github.com/debajyotid/Understanding-impact-of-Imblearn-and-PCA/blob/main/Understanding%20impact%20of%20Imblearn%20and%20PCA.ipynb)
+#### Repo Link
+[Click](https://github.com/debajyotid/Understanding-impact-of-Imblearn-and-PCA/blob/main/Understanding%20impact%20of%20Imblearn%20and%20PCA.ipynb)
 
 #### Skills and Tools
 LabelBinarizer, RandomForestClassifier, TomekLinks, SMOTE, RandomUnderSampler, Pipeline, PCA
@@ -300,7 +314,8 @@ Problem Statement: Predict the pay-range a given employee would belong to, based
 
 The dataset is sourced from http://openbook.sfgov.org, which is part of the Government of San Francisco city's initiative in providing open & easily accessible data related to performance & spending across different departments of San Francisco City government. Salary range is the range of pay established by employers to pay to employees performing a particular job or function. Salary range generally has a minimum pay rate, a maximum pay rate, and a series of mid-range opportunities for pay increases.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Salary-Range-using-ML-Techniques/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Salary-Range-using-ML-Techniques/blob/master/Predicting_SalaryRange_using_MLTechniques.ipynb)
 
 #### Skills and Tools
 LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMOTE, RandomUnderSampler, Pipeline
@@ -339,7 +354,8 @@ return_5years contains 17 columns which give information about 3 year return and
 
 return_10years contains 17 columns which give information about 3 year return and ratios
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mutual-Fund-Ratings/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Predicting-Mutual-Fund-Ratings/blob/master/Predicting_MutualFund_Ratings_using_ML_techniques.ipynb)
 
 #### Skills and Tools
 LabelBinarizer, RandomForestClassifier, XGBClassifier, StackingCVClassifier, SMOTE, RandomUnderSampler, Pipeline
@@ -370,7 +386,8 @@ J. Stallkamp, M. Schlipsing, J. Salmen, C. Igel, Man vs. computer: Benchmarking 
 Keywords: Traffic sign recognition; Machine learning; Convolutional neural networks; Benchmarking
 http://benchmark.ini.rub.de/
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/German%20Traffic%20Signs/Using%20CNN%20to%20classify%20German%20Traffic%20Signs.ipynb)|
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/German%20Traffic%20Signs/Using%20CNN%20to%20classify%20German%20Traffic%20Signs.ipynb)|
 
 #### Skills and Tools
 Convolution, Maxpooling, Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam, Image Augmentation
@@ -385,7 +402,8 @@ The Aarhus University Signal Processing group, in collaboration with the Univers
 
 Here we are provided with a training set and a test set of images of plant seedlings at various stages of growing. Each image has a filename that is its unique id. The dataset comprises 12 plant species. The objective is to create a classifier capable of determining a plant's species from a photo
 
-Repo Link:|[Click](https://github.com/debajyotid/Using-Computer-Vision-to-classify-Plant-Seedlings/blob/main/Using%20Computer%20Vision%20to%20classify%20Plant%20Seedlings.ipynb)|
+#### Repo Link
+[Click](https://github.com/debajyotid/Using-Computer-Vision-to-classify-Plant-Seedlings/blob/main/Using%20Computer%20Vision%20to%20classify%20Plant%20Seedlings.ipynb)|
 
 #### Skills and Tools
 tensorflow.keras, tensorflow.keras.preprocessing.image,sklearn.model_selection
@@ -407,7 +425,8 @@ Convolution, Maxpooling, Tensorflow, Keras, Dropout, BatchNormalization, Softmax
 
 Correctly classify the different items in the FashionMNIST dataset using Dense Neural Networks
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/FashionMNIST_Classification.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/FashionMNIST_Classification.ipynb)
 
 #### Skills and Tools
 Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam
@@ -426,7 +445,8 @@ Reading Digits in Natural Images with Unsupervised Feature Learning NIPS Worksho
 
 The objective of the project is to learn how to implement a simple image classification pipeline based on a deep neural network. 
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Handwritten%20Digit%20Classification/Predicting_hadnwritten_digits_using_DNN.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Handwritten%20Digit%20Classification/Predicting_hadnwritten_digits_using_DNN.ipynb)
 
 #### Skills and Tools
 Tensorflow, Keras, Dropout, BatchNormalization, Softmax, Adam
@@ -458,7 +478,8 @@ We didn't practise in imbalance learning optimization as we felt that in real-wo
 
 We observed that the model was having a very poor RECALL score for customers who HAVE EXITED, which was actually our target customers, people who we wish to retain back. Thus the above model was defeating our basic requirement & decided to look at other options to improve our model. One such approach was SYNTHETIC OVER-SAMPLING & RANDOM UNDER-SAMPLING. Using the same we were able to design a model which is having comparable accuracy to our previous model while at the same time has a much higher PRECISION & RECALL for our target class.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Predicting%20Customer%20Churn%20using%20ANN/Predicting_customer_churn_using_ANN.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Predicting%20Customer%20Churn%20using%20ANN/Predicting_customer_churn_using_ANN.ipynb)
 
 #### Skills and Tools
 SMOTE, RandomUnderSampler, Pipeline, Tensorflow, Keras
@@ -480,7 +501,8 @@ If we filtered our data further, by choosing only such users who have rated say 
 However, going with only those users who rated at least 10 items, we were able to achieve a RMSE of 1.49 with a plain-vanilla SVD model, and once we tuned the same we were able to bring the RMSE to below 1
 Using this model, we were then able to design a recommendation system which would be able to predict the top-5 products for a given user
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Recommendation%20Systems/Recommending%20Electronic%20Items%20using%20Collaborative%20Filtering/CollaborativeFiltering_and_PopularityBased_RecommendationSystems.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Recommendation%20Systems/Recommending%20Electronic%20Items%20using%20Collaborative%20Filtering/CollaborativeFiltering_and_PopularityBased_RecommendationSystems.ipynb)
 
 #### Skills and Tools
 User-User Collaborative Filtering, Item-Item Collaborative Filtering, SVD, KNNWithMeans
@@ -495,7 +517,8 @@ The dataset has been compiled by Cai-Nicolas Ziegler in 2004, and it comprises o
 Reference: http://www2.informatik.uni-freiburg.de/~cziegler/BX/
 
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Recommendation%20Systems/Book%20Recommendation%20using%20Collaborative%20Filtering/Recommendations_using_CollaborativeFiltering.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Recommendation%20Systems/Book%20Recommendation%20using%20Collaborative%20Filtering/Recommendations_using_CollaborativeFiltering.ipynb)
 
 #### Skills and Tools
 User-User Collaborative Filtering, SVD
@@ -506,7 +529,8 @@ User-User Collaborative Filtering, SVD
 
 Based on different attributes of a bank's customers, predict whether a customer will default or not, using different ML techniques like K-Fold Cross-Validation, RandomForestClassifier, etc. Also the model's performance is explained using a ROC-AUC plot
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Ensemble-Techniques/Predicting%20Loan%20Defualt%20using%20Randomforest%20Classifier/Predicting_LoanDefault_using_RandomForestClassifier.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Ensemble-Techniques/Predicting%20Loan%20Defualt%20using%20Randomforest%20Classifier/Predicting_LoanDefault_using_RandomForestClassifier.ipynb)
 
 #### Skills and Tools
 K-Fold Cross-Validation, RandomForestClassifier, GridSearchCV, LabelEncoder, OneHotEncoder, ROC-AUC
@@ -532,7 +556,8 @@ The data is in ASCII CSV format. The rows of the CSV file contain an instance co
 This dataset is courtesy the below & maybe copyrighted by the same.
 Max A. Little, Patrick E. McSharry, Eric J. Hunter, Lorraine O. Ramig (2008), 'Suitability of dysphonia measurements for telemonitoring of Parkinson's disease', IEEE Transactions on Biomedical Engineering (to appear).
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Ensemble-Techniques/Using%20Ensembles%20to%20predict%20Parkinsons%20Disease%20onset/Using%20Ensembles%20to%20predict%20Parkinsons%20Disease%20onset.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Ensemble-Techniques/Using%20Ensembles%20to%20predict%20Parkinsons%20Disease%20onset/Using%20Ensembles%20to%20predict%20Parkinsons%20Disease%20onset.ipynb)
 
 #### Skills and Tools
 DecisionTreeClassifier, RandomForestClassifier, PCA, sklearn.preprocessing, GridSearchCV, RandomizedSearchCV
@@ -545,7 +570,8 @@ The purpose of the case study is to classify a given silhouette as one of three 
 
 Four "Corgie" model vehicles were used for the experiment: a double-decker bus, Chevrolet van, Saab 9000 and an Opel Manta 400 cars.This particular combination of vehicles was chosen with the expectation that the bus, van and either one of the cars would be readily distinguishable, but it would be more difficult to distinguish between the cars.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Unsupervised%20Learning/Classifying%20vehicles%20by%20analysing%20silhouettes/Vehicle_Classification_analyzing_silhouettes.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Unsupervised%20Learning/Classifying%20vehicles%20by%20analysing%20silhouettes/Vehicle_Classification_analyzing_silhouettes.ipynb)
 
 #### Skills and Tools
 K-fold Cross Validation, StandardScaler, SVM, GridSearchCV, PCA
@@ -555,7 +581,8 @@ K-fold Cross Validation, StandardScaler, SVM, GridSearchCV, PCA
 ![Image](https://static-ssl.businessinsider.com/image/5cc9c363021b4c10db31af65-2059/here%202.jpg)
 The dataset was used in the 1983 American Statistical Association Exposition. The data concerns city-cycle fuel consumption in miles per gallon, to be predicted in terms of 2 multivalued discrete and 4 continuous variables.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Unsupervised%20Learning/Predicting%20mileage%20for%20city%20vehicles%20using%20Cluster%20Analysis/Predicting_mileage_using_Cluster_Analysis.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Unsupervised%20Learning/Predicting%20mileage%20for%20city%20vehicles%20using%20Cluster%20Analysis/Predicting_mileage_using_Cluster_Analysis.ipynb)
 
 #### Skills and Tools
 KMeans, AgglomerativeClustering, LinearRegression, GridSearchCV
@@ -568,7 +595,8 @@ A campaign that the bank ran last year for liability customers showed a healthy 
 The department wants to build a model that will help them identify the potential customers who have higher probability of purchasing the loan. This will increase the success ratio while at the same time reduce the cost of the campaign.
 The dataset is readily available in Kaggle & has also been included in the repo. The file Bank.xls contains data on 5000 customers. The data include customer demographic information (age, income, etc.), the customer's relationship with the bank (mortgage, securities account, etc.), and the customer response to the last personal loan campaign (Personal Loan). Among these 5000 customers, only 480 (= 9.6%) accepted the personal loan that was offered to them in the earlier campaign.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Campaign%20for%20selling%20Personal%20Loans/Campaign_for_Personal_Loans.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Campaign%20for%20selling%20Personal%20Loans/Campaign_for_Personal_Loans.ipynb)
 
 #### Skills and Tools
 LogisticRegression, KNeighborsClassifier, train_test_split, GridSearchCV
@@ -577,7 +605,8 @@ LogisticRegression, KNeighborsClassifier, train_test_split, GridSearchCV
 ---
 In this assignment we look to classify whether a patient has started noticing onset of Rheumatoid Arthritis based on the biomechanical features like pelvic_incidence, lumbar_lordosis_angle, pelvic_radius, etc. The dataset has 2 parts: 1 having 2 classes-Normal/Abnormal, while the other having 3 classes-Normal/Spondylolisthesis/Hernia. The dataset is part of UCI Machine Learning repository. We use a popular supervised machine learning algorithn KNeighborsClassifier for our classification task. This algorithm works by classifying a datapoint to a particular class based on the proximity of each indvidual feature in the datapoint with other datapoints. The datapoints is assigned the class of the nearest datapoint(s). Number of nearest neighbours to be used for this learning is an extremely important hyper-parameter as is the method used to calculate the distance of a point from it's nearest neighbours.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Patient%20Classification%20using%20biomechanical%20features%20of%20orthopaedic%20patients/Classifying_Patients_using_biomechanical_features.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Patient%20Classification%20using%20biomechanical%20features%20of%20orthopaedic%20patients/Classifying_Patients_using_biomechanical_features.ipynb)
 
 #### Skills and Tools
 KNeighborsClassifier, MinMaxScaler, train_test_split, metrics
@@ -589,7 +618,8 @@ Source: https://archive.ics.uci.edu/ml/datasets/Student+Performance
 
 We use LogisticRegression & Gaussian Naive-Baye's Classifiers for calculating the probability of a student passing & predicting the same based on the calculation
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)
 
 #### Skills and Tools
 LogisticRegression, GaussianNB, train_test_split, seaborn, labelencoder
@@ -599,7 +629,8 @@ LogisticRegression, GaussianNB, train_test_split, seaborn, labelencoder
 ---
 In the case of an insurance company, attributes of customers like Age, Gender, BMI, No. of Children, Smoking habits, etc. can be crucial in making business decisions. Hence, knowing to explore and generate value out of such data can be an invaluable skill to have.
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)
 
 #### Skills and Tools
 t-Test, Student's t-Test, ANOVA, EDA
@@ -608,7 +639,8 @@ t-Test, Student's t-Test, ANOVA, EDA
 ---
 In this assignment, we look at various statistical techniques like t-Tests, ANOVA, Chi-Square Tests, etc. and try answer various questions statistically using Hypothesis Testing
 
-Repo Link: [Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)
+#### Repo Link
+[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)
 
 #### Skills and Tools
 t-Tests, ANOVA, Type-I & Type-II Errors, Chi-Squared Tests
