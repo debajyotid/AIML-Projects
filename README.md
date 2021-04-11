@@ -103,7 +103,9 @@ CNN,Siamese Network,Contrastive Loss,Model Checkpoint,Signature Verification
 
 ### Using Glove and LSTMs to classify Fake News
 ---
+![Image](https://specials-images.forbesimg.com/imageserve/5f8b53d83ad376bd758e6b23/960x0.jpg?fit=scale)
 
+---
 Kaggle Link: | https://www.kaggle.com/c/fake-news
 
 Aim is to develop a machine learning program to identify when an article might be fake news.
