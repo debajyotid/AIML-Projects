@@ -18,6 +18,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |-|-|-|-|
 |[Identifying Dog Breeds based on Visual Variations in appearance, using Convolution Neural Networks & Transfer Learning](#Using-CNN-to-classify-Dog-Breeds-based-on-images)|`Capstone Project` | `CNN`,`VGG16`,`ResNet50`,`MobileNetV2`,`Image Augmentation`,`Transfer Learning`|[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)|
 |[Using Siamese Networks to distinguish a Forged Signature from Genuine Signature](#Signature-Verification-using-Siamese-Networks)|`Advanced Computer Vision` | `CNN`,`Siamese Network`,`Contrastive Loss`,`Model Checkpoint`,`Signature Verification`|[Click](https://github.com/debajyotid/Signature-Verification-using-Siamese-Networks)|
+|[Using Glove and LSTMs to classify Fake News](#Using-Glove-and-LSTMs-to-classify-Fake-News)|`Sequential NLP` | `LSTM`,`Glove Word Embeddings`,`Keras Tokenization`,`Kaggle`,`Stemming`|[Click](https://github.com/debajyotid/Using-Glove-and-LSTMs-to-classify-Fake-News/blob/main/NLP-Kaggle%20Fake%20News%20Classifier%20using%20Glove%20%26%20LSTM.ipynb)|
 |[Face Recognition model using VGG](#Alligned-Face-Dataset-Pinterest)|`Face Recognition` | `VGG`,`SVM`,`Embeddings`,`Similarity Distance`,`OpenCV`,`PCA`,`StandardScaler`,`LabelEncoder`,|[Click](https://github.com/debajyotid/Creating-a-Face-Recognition-Model-using-a-VGG-Architecture-and-pretrained-weights/blob/main/Creating%20a%20Face%20Recognition%20Model%20using%20a%20VGG%20Architecture%20and%20pretrained%20weights.ipynb)|
 |[Using Mobilenet in UNet Architecture to predict Face Masks](#WIDER-Face-Dataset)|`Face Detection` | `UNet`,`MobileNet`,`CV2`,`Dice-Coefficient`,`Callbacks`,`ReduceLROnPlateau`,`EarlyStopping`,`ModelCheckpoint`,`Learning Plots`|[Click](https://github.com/debajyotid/Using-MobileNet-in-UNet-Architecture-to-build-a-Face-Mask-Prediction-Model/blob/main/Using%20MobileNet%20in%20UNet%20Architecture%20to%20build%20a%20Face%20Mask%20Prediction%20Model.ipynb)|
 |[Using Statistical NLP to predict author of Blog](#Kaggle-Blog-Authoship-Corpus-Challenge)|`Statistical NLP` | `NLTK`,`WordNetLemmatizer`,`CountVectorizer`,`OneVsRestClassifier`,`LogisticRegression`,`MultiLabelBinarizer`|[Click](https://github.com/debajyotid/Great-Lakes/blob/master/Deep%20Learning/Using%20Statistical%20NLP%20to%20predict%20author%20of%20Blog.ipynb)|
@@ -99,6 +100,35 @@ Paper Link: https://arxiv.org/pdf/1707.02131.pdf
 
 #### Skills and Tools
 CNN,Siamese Network,Contrastive Loss,Model Checkpoint,Signature Verification
+
+### Using Glove and LSTMs to classify Fake News
+---
+
+Kaggle Link: | https://www.kaggle.com/c/fake-news
+
+Aim is to develop a machine learning program to identify when an article might be fake news.
+Run by the UTK Machine Learning Club.
+
+---
+Evaluation Metric
+The evaluation metric for this competition is accuracy, a very straightforward metric.
+[ accuracy = \frac{correct\ predictions}{correct\ predictions+incorrect\ predictions}]
+Accuracy measures false positives and false negeatives equally, and really should only be used in simple cases and when classes are of generally equal class size
+
+---
+Data Description
+train.csv: A full training dataset with the following attributes:
+id: unique id for a news article title: the title of a news article author: author of the news article text: the text of the article; could be incomplete label: a label that marks the article as potentially unreliable
+1: unreliable
+0: reliable
+test.csv: A testing training dataset with all the same attributes at train.csv without the label.
+submit.csv: A sample submission
+
+#### Repo Link:
+[Click](https://github.com/debajyotid/Using-Glove-and-LSTMs-to-classify-Fake-News/blob/main/NLP-Kaggle%20Fake%20News%20Classifier%20using%20Glove%20%26%20LSTM.ipynb)
+
+#### Skills and Tools
+Sequential NLP,LSTM,Glove Word Embeddings,Keras Tokenization,Kaggle,Stemming
 
 ### Alligned Face Dataset Pinterest
 ---
