@@ -1,7 +1,7 @@
 # AIML-Projects
 ![Image](https://2s7gjr373w3x22jf92z99mgm5w-wpengine.netdna-ssl.com/wp-content/uploads/2019/09/brain_AI_shutterstock_Jozsef-Bagota-768x384.jpg)
 ---
-This is a collection of the different Machine Learning and Deep Learning Projects undertaken by me.  Some of these projects are part of the PGP AI-ML course from Great Lakes Institute of Management, to which I am currently enrolled to.
+This is a collection of the different Machine Learning and Deep Learning Projects undertaken by me.  Some of these projects are part of the PGP AI-ML course from Great Lakes Institute of Management, that I undertook from Nov' 19 to May' 21. 
 
 I have collected all the different projects, assessments & other research ideas that I have either been assigned to during my PGP Course or 
 have come across while exploring different nuances of my academic journey.
@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Deploying Machine Learning Models on different Cloud Frameworks](#ML-Model-deployment-on-cloud)|`Model Deployment` | `Heroku`,`AWS EC2`,`Azure`,`Postman`,`StreamLit`,`FastAPI`|
 |[Identifying Dog Breeds based on Visual Variations in appearance, using Convolution Neural Networks & Transfer Learning](#Using-CNN-to-classify-Dog-Breeds-based-on-images)|`Capstone Project` | `CNN`,`VGG16`,`ResNet50`,`MobileNetV2`,`Image Augmentation`,`Transfer Learning`|[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)|
 |[Using Siamese Networks to distinguish a Forged Signature from Genuine Signature](#Signature-Verification-using-Siamese-Networks)|`Advanced Computer Vision` | `CNN`,`Siamese Network`,`Contrastive Loss`,`Model Checkpoint`,`Signature Verification`|[Click](https://github.com/debajyotid/Signature-Verification-using-Siamese-Networks)|
 |[Using Glove and LSTMs to classify Fake News](#Using-Glove-and-LSTMs-to-classify-Fake-News)|`Sequential NLP` | `LSTM`,`Glove Word Embeddings`,`Keras Tokenization`,`Kaggle`,`Stemming`|[Click](https://github.com/debajyotid/Using-Glove-and-LSTMs-to-classify-Fake-News/blob/main/NLP-Kaggle%20Fake%20News%20Classifier%20using%20Glove%20%26%20LSTM.ipynb)|
@@ -48,6 +49,31 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-Student-performance-prediction-system-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
+
+### ML Model deployment on cloud
+---
+![Image](https://miro.medium.com/max/960/1*eUtgsrrFHwsV3wiD0te3jg.jpeg)
+
+The purpose of this repository is to demonstrate different model deployment techniques like using Flask, StrealMit, FastAPI and on cloud environments like Heroku, AWS EC2, Azure.
+
+The underlying ML models have been kept simple for demonstration purposes, but all the repositories have been provided with clear documentation to explain the different steps needed to successfully deploy ML models using the aforesaid technologies, either locally or on the cloud.
+
+I am thanful to Krish Naik for sharing his repository and explaining in details these techniques in the below playlist:
+[Click](https://www.youtube.com/playlist?list=PLZoTAELRMXVOAvUbePX1lTdxQR8EY35Z1)
+
+#### Repo Link
+[Click](https://github.com/debajyotid/Heroku-Demo)
+[Click](https://github.com/debajyotid/Model-Deployment-using-AWS-EC2)
+[Click](https://github.com/debajyotid/Model-Deployment-using-Azure)
+[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-Postman)
+[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-Flasgger)
+[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-StreamLit)
+[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-StreamLit-on-Heroku)
+[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-FastAPI)
+[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-FastAPI-on-Heroku)
+
+#### Skills and Tools 
+Heroku,AWS EC2,Azure,Postman,StreamLit,FastAPI
 
 ### Using CNN to classify Dog Breeds based on images
 ---
