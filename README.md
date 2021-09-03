@@ -59,18 +59,18 @@ The purpose of this repository is to demonstrate different model deployment tech
 The underlying ML models have been kept simple for demonstration purposes, but all the repositories have been provided with clear documentation to explain the different steps needed to successfully deploy ML models using the aforesaid technologies, either locally or on the cloud.
 
 I am thanful to Krish Naik for sharing his repository and explaining in details these techniques in the below playlist:
-[Click](https://www.youtube.com/playlist?list=PLZoTAELRMXVOAvUbePX1lTdxQR8EY35Z1)
+[Deployment of ML Models](https://www.youtube.com/playlist?list=PLZoTAELRMXVOAvUbePX1lTdxQR8EY35Z1)
 
 #### Repo Link
-[Click](https://github.com/debajyotid/Heroku-Demo)
-[Click](https://github.com/debajyotid/Model-Deployment-using-AWS-EC2)
-[Click](https://github.com/debajyotid/Model-Deployment-using-Azure)
-[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-Postman)
-[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-Flasgger)
-[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-StreamLit)
-[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-StreamLit-on-Heroku)
-[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-FastAPI)
-[Click](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-FastAPI-on-Heroku)
+[Heroku-Demo](https://github.com/debajyotid/Heroku-Demo)
+[Model-Deployment-using-AWS-EC2](https://github.com/debajyotid/Model-Deployment-using-AWS-EC2)
+[Model-Deployment-using-Azure](https://github.com/debajyotid/Model-Deployment-using-Azure)
+[Model-Deployment-using-Postman](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-Postman)
+[Model-Deployment-using-Flasgger](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-Flasgger)
+[Model-Deployment-using-Streamlit](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-StreamLit)
+[Model-Deployment-using-Streamlit-on-Heroku](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-StreamLit-on-Heroku)
+[Model-Deployment-using-FastAPI](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-FastAPI)
+[Model-Deployment-using-FastAPI-on-Heroku](https://github.com/debajyotid/Bank-Note-Authentication-model-deployment-using-FastAPI-on-Heroku)
 
 #### Skills and Tools 
 Heroku,AWS EC2,Azure,Postman,StreamLit,FastAPI
