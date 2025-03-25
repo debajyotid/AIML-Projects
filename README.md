@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Generating_YT_Video_Summary_and_Quiz_sessions_from_Transcripts](#YT-Video-Summarization-Translation)|`Using LLMs for Summarization & Translation` | `Google Colab`,`OpenAI API`,`HuggingFace`,`Transformers`,`LLMs`|[Click](https://github.com/debajyotid/Generating_YT_Video_Summary_and_Quiz_sessions_from_Transcripts)|
 |[Deploying Machine Learning Models on different Cloud Frameworks](#ML-Model-deployment-on-cloud)|`Model Deployment` | `Heroku`,`AWS EC2`,`Azure`,`Postman`,`StreamLit`,`FastAPI`|
 |[Identifying Dog Breeds based on Visual Variations in appearance, using Convolution Neural Networks & Transfer Learning](#Using-CNN-to-classify-Dog-Breeds-based-on-images)|`Capstone Project` | `CNN`,`VGG16`,`ResNet50`,`MobileNetV2`,`Image Augmentation`,`Transfer Learning`|[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)|
 |[Using Siamese Networks to distinguish a Forged Signature from Genuine Signature](#Signature-Verification-using-Siamese-Networks)|`Advanced Computer Vision` | `CNN`,`Siamese Network`,`Contrastive Loss`,`Model Checkpoint`,`Signature Verification`|[Click](https://github.com/debajyotid/Signature-Verification-using-Siamese-Networks)|
@@ -49,6 +50,20 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Building a Student Performance Prediction System](#Building-a-Student-performance-prediction-system-using-Regression-techniques)|`Supervised Learning` |`LogisticRegression`, `GaussianNB`, `train_test_split`, `seaborn`, `labelencoder`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Supervised-Learning/Building%20a%20Student%20Performace%20Prediction%20System/Building_Student_Performace_Prediction_System.ipynb)|
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
+
+### YT Video Summarization Translation
+---
+![Image](https://i.ytimg.com/vi/h32ixnEK-8w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC5oP85QZCV8wweD-XxfYAt0hU8gg)
+
+In this repo we aim to get a concise YouTube video summary, review it to determine whether it's worth watching, extract step-by-step guidance so you could easily follow along, and at the end, generate a quiz to test your understanding.
+
+Relevant jupyter notebook, with steps for extracting YouTube video transcripts, generating summaries from the same using pre-trained models from HuggingFace and finally experiment with ChatGPT APIs and leverage the ChatGPT APIs to generate a step-by-step guide from a YouTube video, can be found in the below repo. 
+
+#### Repo Link
+[Click](https://github.com/debajyotid/Generating_YT_Video_Summary_and_Quiz_sessions_from_Transcripts)
+
+#### Skills and Tools 
+Google Colab,OpenAI API,HuggingFace,Transformers,ChatGPT gpt-40-mini
 
 ### ML Model deployment on cloud
 ---
