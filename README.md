@@ -16,7 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
-|[Generating_YT_Video_Summary_and_Quiz_sessions_from_Transcripts](#YT-Video-Summarization-Translation)|`Using LLMs for Summarization & Translation` | `Google Colab`,`OpenAI API`,`HuggingFace`,`Transformers`,`LLMs`|[Click](https://github.com/debajyotid/Generating_YT_Video_Summary_and_Quiz_sessions_from_Transcripts)|
+|[Generating YT Video Summary and Quiz sessions from Transcripts](#YT-Video-Summarization-Translation)|`Using LLMs for Summarization & Translation` | `Google Colab`,`OpenAI API`,`HuggingFace`,`Transformers`,`LLMs`|[Click](https://github.com/debajyotid/Generating_YT_Video_Summary_and_Quiz_sessions_from_Transcripts)|
 |[Deploying Machine Learning Models on different Cloud Frameworks](#ML-Model-deployment-on-cloud)|`Model Deployment` | `Heroku`,`AWS EC2`,`Azure`,`Postman`,`StreamLit`,`FastAPI`|
 |[Identifying Dog Breeds based on Visual Variations in appearance, using Convolution Neural Networks & Transfer Learning](#Using-CNN-to-classify-Dog-Breeds-based-on-images)|`Capstone Project` | `CNN`,`VGG16`,`ResNet50`,`MobileNetV2`,`Image Augmentation`,`Transfer Learning`|[Click](https://github.com/debajyotid/Using-CNN-to-classify-Dog-Breeds-based-on-images)|
 |[Using Siamese Networks to distinguish a Forged Signature from Genuine Signature](#Signature-Verification-using-Siamese-Networks)|`Advanced Computer Vision` | `CNN`,`Siamese Network`,`Contrastive Loss`,`Model Checkpoint`,`Signature Verification`|[Click](https://github.com/debajyotid/Signature-Verification-using-Siamese-Networks)|
