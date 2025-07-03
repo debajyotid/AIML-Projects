@@ -16,6 +16,7 @@ Do reach out to me in case of any queries or suggestions on further improving my
 ### Index
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Using data to build customer personas for targeted marketing](#Personalisation-by-Customer-Segments)|`Use data-driven insights to build customer personas and use the same to drive optimized marketing strategies` | `Jupyter Notebook`, `Customer Segmentation`, `Data Analysis`, `Predictive Modelling`, `Propensity Modelling`, `Visualisation`, `Feature Importance`, `SHAP` | [Click](https://github.com/debajyotid/Personalisation-by-Customer-Segments)|
 |[AI Powered Smart Travel Planner](#AI-Powered-Smart-Trip-Planner)|`Building a smart travel planner using LLMs and Langchain for conversational support` | `Jupyter Notebook`, `Kaggle Notebook`, `OpenAI API`, `Google Maps API`, `Langchain`, `LLMs` | [Click](https://github.com/debajyotid/tour-planner)|
 |[Generating YT Video Summary and Quiz sessions from Transcripts](#YT-Video-Summarization-Translation)|`Using LLMs for Summarization & Translation` | `Google Colab`, `OpenAI API`, `HuggingFace`, `Transformers`, `LLMs` | [Click](https://github.com/debajyotid/Generating_YT_Video_Summary_and_Quiz_sessions_from_Transcripts)|
 |[Deploying Machine Learning Models on different Cloud Frameworks](#ML-Model-deployment-on-cloud)|`Model Deployment` | `Heroku`, `AWS EC2`, `Azure`, `Postman`, `StreamLit`, `FastAPI`|
@@ -52,6 +53,22 @@ Do reach out to me in case of any queries or suggestions on further improving my
 |[Analyzing Cost of Insurance using Statistical Techniques](#Analyzing-Insurance-Cost-using-Statistical-Techniques)|`Hypothesis Testing` |`t-tests`, `Students t-Test`, `EDA`, `Anova`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Analyzing_Insurance_costs_using_Statistical_techniques.ipynb)|
 |[Hypothesis Testing Questions](#Hypothesis-Testing-Questions)|`Hypothesis Testing` |`t-tests`, `ANOVA`, `Type-I & Type-II Errors`, `Chi-Squared Tests`|[Click](https://nbviewer.jupyter.org/github/debajyotid/Great-Lakes/blob/master/Machine%20Learning/Statistical-Learning/Hypothesis_Testing_Questions.ipynb)|
 
+### Personalisation by Customer Segments
+---
+![Image](https://www.dynamicyield.com/wp-content/uploads/2015/04/Segmentation_vs_Personalization1.png)
+
+Business Goal: Increase conversion rates and drive revenue growth by leveraging customer data for personalised experiences.
+
+Data Advantage: 100,000 customer records with behavioural and demographic insights.
+
+Proposed Solution: Utilise customer data to identify high-value segments, create personalised marketing campaigns, and predict customer conversion.
+
+#### Repo Link
+[Click](https://github.com/debajyotid/Personalisation-by-Customer-Segments)
+
+#### Skills and Tools 
+`Jupyter Notebook`, `Kaggle Notebook`, `OpenAI API`, `Google Maps API`, `Langchain`, `LLMs`
+
 ### AI Powered Smart Trip Planner
 ---
 ![Image](https://create.microsoft.com/_next/image?url=https%3A%2F%2Fcdn.create.microsoft.com%2Fsite-content%2Fsite-cms-assets%2Fseo%2Fitineraries_browse.webp&w=1920&q=75)
@@ -64,7 +81,7 @@ In the below repo, we express 2 ways to executing this travel planner: via a Jup
 [Click](https://github.com/debajyotid/tour-planner)
 
 #### Skills and Tools 
-`Jupyter Notebook`, `Kaggle Notebook`, `OpenAI API`, `Google Maps API`, `Langchain`, `LLMs`
+`Jupyter Notebook`, `Customer Segmentation`, `Data Analysis`, `Predictive Modelling`, `Propensity Modelling`, `Visualisation`, `Feature Importance`, `SHAP`
 
 ### YT Video Summarization Translation
 ---
@@ -78,7 +95,7 @@ Relevant jupyter notebook, with steps for extracting YouTube video transcripts, 
 [Click](https://github.com/debajyotid/Generating_YT_Video_Summary_and_Quiz_sessions_from_Transcripts)
 
 #### Skills and Tools 
-Google Colab,OpenAI API,HuggingFace,Transformers,ChatGPT gpt-40-mini
+Google Colab, OpenAI API, HuggingFace, Transformers, ChatGPT gpt-40-mini
 
 ### ML Model deployment on cloud
 ---
